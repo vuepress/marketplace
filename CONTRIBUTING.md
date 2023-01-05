@@ -1,8 +1,18 @@
-# [VuePress2 Marketplace](https://vuejs.vuepress)
+# Contributing Guide
 
-## Introduction
+## Rules
 
-The repo holds the source code for the VuePress2 Marketplace website.
+1. Make sure you put things in the right category!
+2. Always add your items to the end of a list. To be fair, the order is first-come-first-serve.
+3. If you think something belongs in the wrong category, or think there needs to be a new category, feel free to edit things too.
+4. Provide a detailed docs with themes and plugins about how to use them.
+5. Themes and plugins should be open source projects and the package should have a valid repo.
+
+## Warning
+
+You should ensure your plugins compatable with latest VuePress version fitting major.
+
+Any plugins which is not working with latest major version or with broken docs will be removed from list after 30 days.
 
 ## Adding your plugins and themes
 
@@ -18,8 +28,6 @@ You are free to add your plugins and themes to the site, just open a new PR.
 - [x] My work is a plugin or theme for VuePress 2, or tools related with VuePress 2.
 - [x] My work is workable with latest VuePress 2 version now, and I will keep supporting later VuePress 2 versions. I promise if I abandon my project, I will open another PR to remove it.
 </details>
-
-For details, see [Contributing Guide](https://github.com/vuepress/marketplace/blob/main/CONTRIBUTING.md)
 
 ## Requesting vuejs.press domain
 
@@ -42,25 +50,3 @@ You should add a new line in `config/vuejs.press.zone`, and we will sync that fi
 - [x] My work is workable with latest VuePress 2 version now, and I will keep supporting later VuePress 2 versions. I promise if I abandon my project, I will open another PR to remove it.
 - [x] I promise only documentation content is served at subdomain I apply to.
 </details>
-
-For details, see [Contributing Guide](https://github.com/vuepress/marketplace/blob/main/CONTRIBUTING.md)
-
-## License
-
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-  </a>
-  <br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="https://github.com/Mister-Hope">
-    <span property="dct:title">Mister-Hope</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">VuePress MarketPlace</span>.
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="CN" about="https://vuejs.press">
-  China Mainland</span>.
-</p>
