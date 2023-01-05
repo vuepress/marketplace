@@ -4,7 +4,7 @@ import { isLinkHttp, isPlainObject } from "@vuepress/shared";
 import { computed } from "vue";
 import { useLocaleConfig } from "vuepress-shared/client";
 
-import { SourceIcon } from "@theme-hope/modules/navbar/components/icons";
+import { GitHubIcon } from "@theme-hope/modules/navbar/components/icons";
 import Icon from "@theme-hope/components/Icon";
 
 import { normalizePackageName } from "../utils/index.js";
@@ -88,22 +88,22 @@ const badges = computed(() => [
     "license",
   ],
 ]);
+
+const open = () => {
+  window.open(projectLink.value, "_blank");
+};
 </script>
 
 <template>
-  <a
-    class="project-card"
-    :class="{ recommend }"
-    :href="projectLink"
-    target="_blank"
-  >
+  <div class="project-card" :class="{ recommend }" @click="open">
     <a
       class="project-card-source"
       :href="projectSource"
       :title="locale.source"
       target="_blank"
+      @click.stop
     >
-      <SourceIcon class="source-icon" />
+      <GitHubIcon class="source-icon" />
     </a>
     <h3 class="project-header" :id="packageName">
       <Icon class="project-icon" :icon="icon" />
@@ -122,11 +122,11 @@ const badges = computed(() => [
         :alt="alt"
       />
     </div>
-  </a>
+  </div>
 </template>
 
 <style lang="scss">
-a.project-card {
+.project-card {
   position: relative;
 
   flex-basis: calc(50% - 3rem);
@@ -135,7 +135,6 @@ a.project-card {
   padding: 1rem;
   border-radius: 0.5rem;
 
-  color: inherit;
   box-shadow: 1px 1px 8px var(--card-shadow);
 
   cursor: pointer;
@@ -161,7 +160,6 @@ a.project-card {
   &:hover {
     background-color: var(--bg-color-secondary);
     box-shadow: 0 2px 12px 0 var(--card-shadow);
-    text-decoration: none;
 
     .project-icon {
       animation-name: bounce;
@@ -224,18 +222,9 @@ a.project-card {
 
 .project-card-source {
   float: right;
-  // position: absolute;
-  // bottom: 16px;
-  // inset-inline-end: 16px;
 
-  // display: inline-block;
-
-  width: 1rem;
-  height: 1rem;
-  padding: 0.25rem;
-  border-radius: 50%;
-
-  background: var(--dark-grey);
+  width: 1.5rem;
+  height: 1.5rem;
 
   transition: transform var(--transform-transition);
 
@@ -244,14 +233,13 @@ a.project-card {
   }
 
   &:hover {
-    background: var(--theme-color);
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 
   .source-icon {
     width: 100%;
     height: 100%;
-    color: var(--white);
+    color: var(--text-color);
   }
 }
 
