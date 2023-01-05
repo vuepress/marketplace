@@ -173,6 +173,7 @@
         "name": "oh-my-live2d",
         "icon": "flower",
         "recommend": true,
+        "tag": "latest",
         "desc": {
           "/": "Live2D poster girl",
           "/zh/": "live2d 看板娘插件"
