@@ -47,6 +47,7 @@
       {
         "type": "theme",
         "name": "mix",
+        "tag": "latest",
         "icon": "http://vuepress-theme-mix.vercel.app/images/hero.png",
         "desc": {
           "/": "A VuePress 2 theme with a mix of features",
