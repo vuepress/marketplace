@@ -141,7 +141,26 @@
           "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/toc.html"
         }
       },
-
+      {
+        "name": "@goy/svg-icons",
+        "icon": "emoji",
+        "desc": {
+          "/": "Managing svg icons via svg sprite",
+          "/zh/": "通过 svg sprite 管理 svg 图标"
+        },
+        "source": "ntnyq/vuepress-plugin-svg-icons",
+        "url": "https://vp-icon.goyfe.com/"
+      },
+      {
+        "name": "iconify",
+        "icon": "emoji",
+        "desc": {
+          "/": "Use icons in VuePress",
+          "/zh/": "在 VuePress 中使用图标"
+        },
+        "source": "ntnyq/vuepress-plugin-iconify",
+        "url": "https://vuepress-plugin-iconify.ntnyq.com/"
+      },
       {
         "name": "@vuepress/palette",
         "icon": "palette",

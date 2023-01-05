@@ -18,6 +18,17 @@
           "/": "plugin-blog2.vuejs.press",
           "/zh/": "plugin-blog2.vuejs.press/zh/"
         }
+      },
+      {
+        "name": "posts",
+        "icon": "note",
+        "recommend": true,
+        "desc": {
+          "/": "Blog plugin which generate posts information",
+          "/zh/": "生成博客文章信息的插件"
+        },
+        "source": "azat-io/azat-io/tree/main/plugins/posts",
+        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/posts"
       }
     ]
   },
@@ -149,6 +160,25 @@
           "/": "plugin-copyright2.vuejs.press",
           "/zh/": "plugin-copyright2.vuejs.press/zh/"
         }
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Poster Girl",
+      "/zh/": "看板娘"
+    },
+    "items": [
+      {
+        "name": "oh-my-live2d",
+        "icon": "flower",
+        "recommend": true,
+        "desc": {
+          "/": "Live2D poster girl",
+          "/zh/": "live2d 看板娘插件"
+        },
+        "source": "oh-my-live2d/vuepress-plugin-oh-my-live2d",
+        "url": "https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d"
       }
     ]
   }

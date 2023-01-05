@@ -144,6 +144,31 @@
           "/": "https://v2.vuepress.vuejs.org/reference/plugin/back-to-top.html",
           "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/back-to-top.html"
         }
+      },
+      {
+        "name": "alert",
+        "icon": "notice",
+        "tag": "latest",
+        "desc": {
+          "/": "Add notice to website",
+          "/zh/": "网站添加通知公告"
+        },
+        "source": "wuwb/vuepress-plugin-alert",
+        "url": "https://github.com/wuwb/vuepress-plugin-alert"
+      },
+      {
+        "name": "anchor-right",
+        "icon": "list",
+        "tag": "latest",
+        "desc": {
+          "/": "Generate right toc anchor",
+          "/zh/": "生成右侧导航目录锚点"
+        },
+        "source": "dingshaohua-cn/vuepress-plugin-anchor-right",
+        "url": {
+          "/": "https://github.com/dingshaohua-cn/vuepress-plugin-anchor-right/blob/main/README-en.md",
+          "/zh/": "https://github.com/dingshaohua-cn/vuepress-plugin-anchor-right"
+        }
       }
     ]
   },
@@ -166,6 +191,28 @@
           "/": "https://v2.vuepress.vuejs.org/reference/plugin/register-components.html",
           "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/register-components.html"
         }
+      },
+      {
+        "name": "remove-html-extension",
+        "icon": "expansion",
+        "tag": "latest",
+        "desc": {
+          "/": "Generating clean urls without html extension",
+          "/zh/": "生成没有 html 扩展名的干净 url"
+        },
+        "source": "azat-io/azat-io/tree/main/plugins/remove-html-extension",
+        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/remove-html-extension"
+      },
+      {
+        "name": "@condorhero/export-pdf-v2",
+        "icon": "file",
+        "tag": "latest",
+        "desc": {
+          "/": "Export site to a PDF file",
+          "/zh/": "将网站导出为 PDF 文件"
+        },
+        "source": "condorheroblog/vuepress-plugin/tree/main/packages/vuepress-plugin-export-pdf-v2",
+        "url": "https://github.com/condorheroblog/vuepress-plugin/tree/main/packages/vuepress-plugin-export-pdf-v2"
       }
     ]
   }

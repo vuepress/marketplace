@@ -7,7 +7,7 @@
     "items": [
       {
         "name": "@vuepress/google-analytics",
-        "icon": "app",
+        "icon": "state",
         "recommend": true,
         "desc": {
           "/": "Integrate <a href='https://analytics.google.com/' target='_blank'>Google Analytics</a> into VuePress.",
@@ -30,6 +30,18 @@
         },
         "source": "Zhengqbbb/vuepress-plugin/tree/main/packages/plugin-china-search-console",
         "url": "https://vuepress.qbb.sh/china-search-console/"
+      },
+      {
+        "name": "umami-analytics",
+        "icon": "state",
+        "recommend": true,
+        "tag": "latest",
+        "desc": {
+          "/": "Integrate Umami analytics",
+          "/zh/": "集成 Umami 分析"
+        },
+        "source": "azat-io/azat-io/tree/main/plugins/umami-analytics",
+        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/umami-analytics"
       }
     ]
   },
@@ -92,6 +104,18 @@
           "/": "plugin-redirect.vuejs.press",
           "/zh/": "plugin-redirect.vuejs.press/zh/"
         }
+      },
+
+      {
+        "name": "open-graph",
+        "icon": "strong",
+        "tag": "latest",
+        "desc": {
+          "/": "Generating open graph meta tags to improve SEO.",
+          "/zh/": "生成 Open Graph Meta 标签以改进 SEO。"
+        },
+        "source": "azat-io/azat-io/tree/main/plugins/open-graph",
+        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/open-graph"
       }
     ]
   },
@@ -137,6 +161,25 @@
           "/": "https://v2.vuepress.vuejs.org/reference/plugin/pwa-popup.html",
           "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/pwa-popup.html"
         }
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Deployment",
+      "/zh/": "部署"
+    },
+    "items": [
+      {
+        "name": "@vuepress-plume/netlify-functions",
+        "icon": "launch",
+        "tag": "latest",
+        "desc": {
+          "/": "Use netlify functions for serverless",
+          "/zh/": "使用 netlify functions 以实现无服务器"
+        },
+        "source": "pengzhanbo/vuepress-theme-plume/blob/main/packages/plugin-netlify-functions",
+        "url": "https://github.com/pengzhanbo/vuepress-theme-plume/blob/main/packages/plugin-netlify-functions/README.md"
       }
     ]
   }

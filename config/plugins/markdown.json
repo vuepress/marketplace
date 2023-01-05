@@ -426,5 +426,24 @@
         }
       }
     ]
+  },
+  {
+    "header": {
+      "/": "Helpers",
+      "/zh/": "辅助工具"
+    },
+    "items": [
+      {
+        "name": "markdown-define2",
+        "icon": "define",
+        "tag": "latest",
+        "desc": {
+          "/": "Define variables in markdown",
+          "/zh/": "在 markdown 中定义变量"
+        },
+        "source": "justforuse/vuepress-plugin-markdown-define2",
+        "url": "https://github.com/justforuse/vuepress-plugin-markdown-define2"
+      }
+    ]
   }
 ]
