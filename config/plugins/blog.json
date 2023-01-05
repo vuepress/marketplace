@@ -22,7 +22,7 @@
       {
         "name": "posts",
         "icon": "note",
-        "recommend": true,
+        "tag": "latest",
         "desc": {
           "/": "Blog plugin which generate posts information",
           "/zh/": "生成博客文章信息的插件"
