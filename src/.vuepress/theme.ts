@@ -21,7 +21,8 @@ export default hopeTheme({
       // sidebar
       sidebar: false,
 
-      footer: "Default footer",
+      footer:
+        'Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | CC0 Licensed',
 
       displayFooter: true,
 
@@ -40,7 +41,8 @@ export default hopeTheme({
       // sidebar
       sidebar: false,
 
-      footer: "默认页脚",
+      footer:
+        '主题使用 <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | CC0 协议',
 
       displayFooter: true,
 

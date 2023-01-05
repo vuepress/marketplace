@@ -13,9 +13,6 @@ actions:
   - text: 主题
     link: /zh/Themes/
     type: primary
-
-copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
 ---
 
 ::: center
