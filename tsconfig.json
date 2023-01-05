@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": ["DOM", "ES2020"],
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "target": "ES2020",
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@theme-hope/*": ["./node_modules/vuepress-theme-hope/lib/client/*.js"],
+      "@theme-hope/modules/navbar/components/icons": [
+        "./node_modules/vuepress-theme-hope/lib/client/modules/navbar/components/icons/index.js"
+      ]
+    }
+  },
+  "include": ["**/.vuepress/**/*"],
+  "exclude": ["node_modules", ".temp", "dist"]
+}

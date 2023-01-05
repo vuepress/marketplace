@@ -1,0 +1,139 @@
+[
+  {
+    "header": {
+      "/": "Docs Themes",
+      "/zh/": "文档主题"
+    },
+    "items": [
+      {
+        "type": "theme",
+        "name": "@vuepress/default",
+        "icon": "/logo.png",
+        "desc": {
+          "/": "VuePress2 default theme",
+          "/zh/": "VuePress2 默认主题"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/theme-default",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/default-theme/config.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html"
+        }
+      },
+      {
+        "type": "theme",
+        "name": "hope",
+        "icon": "https://theme-hope.vuejs.press/logo.svg",
+        "desc": {
+          "/": "VuePress theme with tons of features",
+          "/zh/": "功能强大的 VuePress 主题"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/theme/",
+        "url": {
+          "/": "theme-hope.vuejs.press",
+          "/zh/": "theme-hope.vuejs.press/zh/"
+        }
+      },
+      {
+        "type": "theme",
+        "name": "reco",
+        "icon": "http://v2.vuepress-reco.recoluan.com/logo.png",
+        "desc": {
+          "/": "🔥 The 2.x of vuepress-theme-reco",
+          "/zh/": "🔥 vuepress-theme-reco 的 2.x 版本"
+        },
+        "source": "https://github.com/vuepress-reco/vuepress-theme-reco",
+        "url": "http://v2.vuepress-reco.recoluan.com/"
+      },
+      {
+        "type": "theme",
+        "name": "mix",
+        "icon": "http://vuepress-theme-mix.vercel.app/images/hero.png",
+        "desc": {
+          "/": "A VuePress 2 theme with a mix of features",
+          "/zh/": "一个 VuePress 2 主题，集合了多种功能"
+        },
+        "source": "gavinliu6/vuepress-theme-mix",
+        "url": {
+          "/": "vuepress-theme-mix.vercel.app/",
+          "/zh/": "vuepress-theme-mix.vercel.app/zh/"
+        }
+      },
+      {
+        "type": "theme",
+        "name": "teadocs",
+        "tag": "latest",
+        "desc": {
+          "/": "A improved docs theme based on @vuepress/theme-default",
+          "/zh/": "基于 @vuepress/theme-default 的改进的文档主题"
+        },
+        "source": "wuwb/vuepress-theme-teadoc",
+        "url": "https://github.com/wuwb/vuepress-theme-teadoc"
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Blog Themes",
+      "/zh/": "博客主题"
+    },
+    "items": [
+      {
+        "type": "theme",
+        "name": "hope",
+        "icon": "https://theme-hope.vuejs.press/logo.svg",
+        "desc": {
+          "/": "VuePress theme with tons of features",
+          "/zh/": "功能强大的 VuePress 主题"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/theme/",
+        "url": {
+          "/": "theme-hope.vuejs.press",
+          "/zh/": "theme-hope.vuejs.press/zh/"
+        }
+      },
+      {
+        "type": "theme",
+        "name": "gungnir",
+        "desc": {
+          "/": "A graceful blog theme for VuePress",
+          "/zh/": "一款优雅的 VuePress 博客主题"
+        },
+        "source": "Renovamen/vuepress-theme-gungnir",
+        "url": "https://v2-vuepress-theme-gungnir.vercel.app/"
+      },
+      {
+        "type": "theme",
+        "name": "dog",
+        "tag": "latest",
+        "desc": {
+          "/": "A self-proclaimed blog theme<br>(Note: text from the official website)",
+          "/zh/": "这是一款自以为是的博客主题<br>(注: 来自其官网原文)"
+        },
+        "source": "artiely/blog-dog",
+        "url": "https://github.com/artiely/blog-dog"
+      },
+      {
+        "type": "theme",
+        "name": "@vuepress-plume/plume",
+        "tag": "latest",
+        "desc": {
+          "/": "A simple VuePress theme",
+          "/zh/": "一个简约的 VuePress 主题。"
+        },
+        "source": "pengzhanbo/vuepress-theme-plume",
+        "url": "https://pengzhanbo.cn/note/vuepress-theme-plume/"
+      },
+      {
+        "type": "theme",
+        "name": "knzn",
+        "tag": "latest",
+        "desc": {
+          "/": "A VuePress2 blog theme",
+          "/zh/": "一个 VuePress2 博客主题。"
+        },
+        "source": "zhb333/vuepress-theme-knzn",
+        "url": "https://zhb333.github.io/vuepress-theme-knzn/dbe1806c869181db9c55afecd31d39b9/"
+      }
+    ]
+  }
+]

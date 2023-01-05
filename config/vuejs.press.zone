@@ -1,0 +1,80 @@
+; Domain: vuejs.press
+; Exported at:2023-01-05 15:56:16 (Asia/Shanghai)
+;
+;      _/_/_/    _/      _/    _/_/_/  _/_/_/      _/_/    _/_/_/
+;     _/    _/  _/_/    _/  _/        _/    _/  _/    _/  _/    _/
+;    _/    _/  _/  _/  _/    _/_/    _/_/_/    _/    _/  _/    _/
+;   _/    _/  _/    _/_/        _/  _/        _/    _/  _/    _/
+;  _/_/_/    _/      _/  _/_/_/    _/          _/_/    _/_/_/
+;
+; This file is intended for use for informational and archival
+; purposes ONLY and MUST be edited before used on a production
+; DNS server.
+;
+; For further information, please consult the BIND documentation
+; located on the following website:
+;     http://www.isc.org/
+;
+; And RFC 1035:
+;    http://www.ietf.org/rfc/rfc1035.txt
+;
+; If you are trying to import to your domain in DNSPod, you may
+; want to visit here:
+;    https://console.dnspod.cn/dns/batch
+;
+; If you need help, see the support:
+;    https://docs.dnspod.cn/dns/dnspod-import-domain-records
+;
+; Use at your own risk.
+;
+
+
+$ORIGIN vuejs.press.
+
+
+; SOA record
+VUEJS.PRESS. 600 SOA rubine.dnspod.net. freednsadmin.dnspod.com. 1672801506 3600 180 1209600 180
+
+
+; CNAME records
+plugin-auto-catalog	600	IN	CNAME	vuepress-plugin-auto-catalog.netlify.app.
+plugin-auto-catalog-demo	600	IN	CNAME	vuepress-plugin-auto-catalog-demo.netlify.app.
+plugin-blog2	600	IN	CNAME	vuepress-plugin-blog2.netlify.app.
+plugin-blog2-demo	600	IN	CNAME	vuepress-plugin-blog2-demo.netlify.app.
+plugin-comment2	600	IN	CNAME	vuepress-plugin-comment2.netlify.app.
+plugin-comment2-demo	600	IN	CNAME	vuepress-plugin-comment2-demo.netlify.app.
+plugin-copy-code2	600	IN	CNAME	vuepress-plugin-copy-code2.netlify.app.
+plugin-copy-code2-demo	600	IN	CNAME	vuepress-plugin-copy-code2-demo.netlify.app.
+plugin-copyright2	600	IN	CNAME	vuepress-plugin-copyright2.netlify.app.
+plugin-copyright2-demo	600	IN	CNAME	vuepress-plugin-copyright2-demo.netlify.app.
+plugin-feed2	600	IN	CNAME	vuepress-plugin-feed2.netlify.app.
+plugin-feed2-demo	600	IN	CNAME	vuepress-plugin-feed2-demo.netlify.app.
+plugin-lightgallery	600	IN	CNAME	vuepress-plugin-lightgallery.netlify.app.
+plugin-lightgallery-demo	600	IN	CNAME	vuepress-plugin-lightgallery-demo.netlify.app.
+plugin-md-enhance	600	IN	CNAME	vuepress-plugin-md-enhance.netlify.app.
+plugin-md-enhance-demo	600	IN	CNAME	vuepress-plugin-md-enhance-demo.netlify.app.
+plugin-photo-swipe	600	IN	CNAME	vuepress-plugin-photo-swipe.netlify.app.
+plugin-photo-swipe-demo	600	IN	CNAME	vuepress-plugin-photo-swipe-demo.netlify.app.
+plugin-pwa2	600	IN	CNAME	vuepress-plugin-pwa2.netlify.app.
+plugin-pwa2-demo	600	IN	CNAME	vuepress-plugin-pwa2-demo.netlify.app.
+plugin-reading-time2	600	IN	CNAME	vuepress-plugin-reading-time2.netlify.app.
+plugin-redirect	600	IN	CNAME	vuepress-plugin-redirect.netlify.app.
+plugin-redirect-demo	600	IN	CNAME	vuepress-plugin-redirect-demo.netlify.app.
+plugin-remove-pwa	600	IN	CNAME	vuepress-plugin-remove-pwa.netlify.app.
+plugin-sass-palette	600	IN	CNAME	vuepress-plugin-sass-palette.netlify.app.
+plugin-sass-palette-demo	600	IN	CNAME	vuepress-plugin-sass-palette-demo.netlify.app.
+plugin-search-pro	600	IN	CNAME	vuepress-plugin-search-pro.netlify.app.
+plugin-search-pro-demo	600	IN	CNAME	vuepress-plugin-search-pro-demo.netlify.app.
+plugin-seo2	600	IN	CNAME	vuepress-plugin-seo2.netlify.app.
+plugin-seo2-demo	600	IN	CNAME	vuepress-plugin-seo2-demo.netlify.app.
+plugin-sitemap2	600	IN	CNAME	vuepress-plugin-sitemap2.netlify.app.
+plugin-sitemap2-demo	600	IN	CNAME	vuepress-plugin-sitemap2-demo.netlify.app.
+shared	600	IN	CNAME	vuepress-shared.netlify.app.
+theme-hope	600	IN	CNAME	vuepress-theme-hope.netlify.app.
+theme-hope-blog-demo	600	IN	CNAME	vuepress-theme-hope-blog-demo.netlify.app.
+theme-hope-docs-demo	600	IN	CNAME	vuepress-theme-hope-docs-demo.netlify.app.
+
+; NS records
+@	86400	IN	NS	rubine.dnspod.net.
+@	86400	IN	NS	bonnie.dnspod.net.
+

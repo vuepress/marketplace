@@ -1,0 +1,606 @@
+[
+  {
+    "header": {
+      "/": "New Features",
+      "/zh/": "新功能"
+    },
+    "items": [
+      {
+        "name": "comment2",
+        "icon": "comment",
+        "recommend": true,
+        "desc": {
+          "/": "Comment plugin supporting Giscus, Twikoo and Waline",
+          "/zh/": "支持 Giscus, Twikoo 和 Waline 的评论插件"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/comment2/",
+        "url": {
+          "/": "plugin-comment2.vuejs.press",
+          "/zh/": "plugin-comment2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "copy-code2",
+        "icon": "copy",
+        "recommend": true,
+        "desc": {
+          "/": "Provide copy button for code blocks.",
+          "/zh/": "为代码块提供复制按钮"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/copy-code2/",
+        "url": {
+          "/": "plugin-copy-code2.vuejs.press",
+          "/zh/": "plugin-copy-code2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "copyright2",
+        "icon": "info",
+        "recommend": true,
+        "desc": {
+          "/": "Append copyright information while copying, while supports preventing selection and copy",
+          "/zh/": "复制时附加版权信息，同时支持阻止选择和复制"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/copyright2/",
+        "url": {
+          "/": "plugin-copyright2.vuejs.press",
+          "/zh/": "plugin-copyright2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "photo-swipe",
+        "icon": "pic",
+        "recommend": true,
+        "desc": {
+          "/": "img preview plugin based on photo-swipe",
+          "/zh/": "基于 photo-swipe 的图片预览插件"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/photo-swipe/",
+        "url": {
+          "/": "plugin-photo-swipe.vuejs.press",
+          "/zh/": "plugin-photo-swipe.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "@vuepress/back-to-top",
+        "icon": "launch",
+        "desc": {
+          "/": "Back to top button",
+          "/zh/": "返回顶部按钮"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-back-to-top",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/back-to-top.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/back-to-top.html"
+        }
+      },
+      {
+        "name": "@vuepress/medium-zoom",
+        "icon": "pic",
+        "desc": {
+          "/": "Integrate <a href='https://github.com/francoischalifour/medium-zoom#readme' target='_blank'>medium-zoom</a> into VuePress.",
+          "/zh/": "将 <a href='https://github.com/francoischalifour/medium-zoom#readme' target='_blank'>medium-zoom</a> 集成到VuePress。"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-medium-zoom",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/medium-zoom.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/medium-zoom.html"
+        }
+      },
+      {
+        "name": "lightgallery",
+        "icon": "pic",
+        "desc": {
+          "/": "img preview plugin based on lightgallery",
+          "/zh/": "基于 lightgallery 的图片预览插件"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/lightgallery/",
+        "url": {
+          "/": "plugin-lightgallery.vuejs.press",
+          "/zh/": "plugin-lightgallery.vuejs.press/zh/"
+        }
+      }
+    ]
+  },
+  {
+    "header": "Markdown",
+    "items": [
+      {
+        "name": "@vuepress/container",
+        "icon": "box",
+        "recommend": true,
+        "desc": {
+          "/": "Register markdown custom containers in your VuePress site",
+          "/zh/": "在你的 VuePress 站点中注册 markdown 自定义容器"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-container",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/container.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/container.html"
+        }
+      },
+
+      {
+        "name": "md-enhance",
+        "icon": "markdown",
+        "recommend": true,
+        "desc": {
+          "/": "Powerful and tree-shakable markdown enhancement plugin.<br>Features including attrs, tabs, code tabs, hint boxes, footnote, mark, subscript, superscript, snippets, figure, img lazyload, img resize, img mark, custom alignment, task lists, chart.js, flowchart.js, katex, mathjax, diagrams (mermaid), slides (reveal.js), playground, vue playground, code demos, etc.",
+          "/zh/": "强大且可树摇的 Markdown 增强插件。<br>包括属性、标签页、代码标签页、提示框、脚注、标记、下标、上标、代码片段、图片、图片懒加载、图片缩放、图片标记、自定义对齐、任务列表、图表、流程图、公式、数学公式、图表 (mermaid)、幻灯片 (reveal.js)、代码演示等功能。"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "url": {
+          "/": "plugin-md-enhance.vuejs.press",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "@vuepress/shiki",
+        "icon": "code",
+        "recommend": true,
+        "desc": {
+          "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Shiki</a>",
+          "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-shiki",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/shiki.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/shiki.html"
+        }
+      },
+      {
+        "name": "@vuepress/prismjs",
+        "icon": "code",
+        "desc": {
+          "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
+          "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-prismjs",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/prismjs.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/prismjs.html"
+        }
+      }
+    ]
+  },
+
+  {
+    "header": {
+      "/": "Search",
+      "/zh/": "搜素"
+    },
+    "items": [
+      {
+        "name": "@vuepress/docsearch",
+        "icon": "/assets/logo/algolia.svg",
+        "recommend": true,
+        "desc": {
+          "/": "Integrate <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> into VuePress",
+          "/zh/": "将 <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> 集成到 VuePress"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-docsearch",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/docsearch.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/docsearch.html"
+        }
+      },
+      {
+        "name": "search-pro",
+        "icon": "search",
+        "recommend": true,
+        "desc": {
+          "/": "Powerful client search plugin supporting full indexing",
+          "/zh/": "强大的客户端搜索插件，支持全文索引"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/search-pro/",
+        "url": {
+          "/": "plugin-search-pro.vuejs.press",
+          "/zh/": "plugin-search-pro.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "@vuepress/search",
+        "icon": "search",
+        "desc": {
+          "/": "Provide local search to your documentation site.",
+          "/zh/": "为你的文档网站提供本地搜索"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-search",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/search.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/search.html"
+        }
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Helpers",
+      "/zh/": "辅助工具"
+    },
+    "items": [
+      {
+        "name": "@vuepress/register-components",
+        "icon": "plugin",
+        "recommend": true,
+        "desc": {
+          "/": "Register Vue components from component files or directory automatically.",
+          "/zh/": "自动从组件文件或目录中注册 Vue 组件。"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-register-components",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/register-components.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/register-components.html"
+        }
+      },
+
+      {
+        "name": "auto-catalog",
+        "icon": "tree",
+        "recommend": true,
+        "desc": {
+          "/": "Plugins to generate catalog page automatically",
+          "/zh/": "自动生成目录页面的插件"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/auto-catalog/",
+        "url": {
+          "/": "plugin-auto-catalog.vuejs.press",
+          "/zh/": "plugin-auto-catalog.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "components",
+        "icon": "plugin",
+        "recommend": true,
+        "desc": {
+          "/": "Useful components in markdown",
+          "/zh/": "一些在 Markdown 中使用的组件"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/components/",
+        "url": {
+          "/": "plugin-components.vuejs.press",
+          "/zh/": "plugin-components.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "redirect",
+        "icon": "navigate",
+        "recommend": true,
+        "desc": {
+          "/": "Performing automatically redirects from old links to new ones",
+          "/zh/": "自动从旧链接重定向到新链接"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/redirect/",
+        "url": {
+          "/": "plugin-redirect.vuejs.press",
+          "/zh/": "plugin-redirect.vuejs.press/zh/"
+        }
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Site managing",
+      "/zh/": "站点运营"
+    },
+    "items": [
+      {
+        "name": "@vuepress/google-analytics",
+        "icon": "app",
+        "recommend": true,
+        "desc": {
+          "/": "Integrate <a href='https://analytics.google.com/' target='_blank'>Google Analytics</a> into VuePress.",
+          "/zh/": "将 <a href='https://analytics.google.com/' target='_blank'>Google Analytics</a> 集成到 VuePress"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-google-analytics",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/google-analytics.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html"
+        }
+      },
+      {
+        "name": "pwa2",
+        "icon": "app",
+        "recommend": true,
+        "desc": {
+          "/": "An enhanced PWA plugin supporting manifest generation and install prompt",
+          "/zh/": "增强的 PWA 插件，支持 manifest 生成和安装提示"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/pwa2/",
+        "url": {
+          "/": "plugin-pwa2.vuejs.press",
+          "/zh/": "plugin-pwa2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "seo2",
+        "icon": "strong",
+        "recommend": true,
+        "desc": {
+          "/": "Auto-generating OGP and JSON-LD tags to enhance SEO",
+          "/zh/": "自动生成 OGP 和 JSON-LD 标签以增强 SEO"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/seo2/",
+        "url": {
+          "/": "plugin-seo2.vuejs.press",
+          "/zh/": "plugin-seo2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "sitemap2",
+        "icon": "sitemap",
+        "recommend": true,
+        "desc": {
+          "/": "Sitemap generator",
+          "/zh/": "Sitemap 生成器"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/sitemap2/",
+        "url": {
+          "/": "plugin-sitemap2.vuejs.press",
+          "/zh/": "plugin-sitemap2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "china-search-console",
+        "icon": "sitemap",
+        "recommend": true,
+        "desc": {
+          "/": "SEO Enhancement for China mainland, include baidu tongji (analytics), baidu auto push, 360 autopush, tiaotiao(ByteDance) autopush.",
+          "/zh/": "中国大陆 SEO 增强，包括百度统计，百度自动推送，360 自动推送，抖音自动推送。"
+        },
+        "source": "Zhengqbbb/vuepress-plugin/tree/main/packages/plugin-china-search-console",
+        "url": "https://vuepress.qbb.sh/china-search-console/"
+      },
+      {
+        "name": "@vuepress/pwa",
+        "icon": "app",
+        "desc": {
+          "/": "Make your VuePress site a <a href='https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps' target='_blank'>Progressive Web Application</a> (PWA).",
+          "/zh/": "使你的 VuePress 网站成为 <a href='https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps' target='_blank'>Progressive Web Application</a> (PWA)"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-pwa",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/pwa.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/pwa.html"
+        }
+      },
+      {
+        "name": "@vuepress/pwa-popup",
+        "icon": "app",
+        "desc": {
+          "/": "Provide a popup component for users to activate the new PWA service worker manually.",
+          "/zh/": "提供一个弹窗组件，允许用户手动刷新 PWA Service Worker 。"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-pwa-popup",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/pwa-popup.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/pwa-popup.html"
+        }
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Tools targeting developers",
+      "/zh/": "面向开发者的工具插件"
+    },
+    "items": [
+      {
+        "name": "@vuepress/active-header-links",
+        "icon": "heading",
+        "recommend": true,
+        "desc": {
+          "/": "Update route hash when scrolling pages",
+          "/zh/": "滚动页面时更新路由 Hash"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-active-header-links",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/active-header-links.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/active-header-links.html"
+        }
+      },
+      {
+        "name": "@vuepress/external-link-icon",
+        "icon": "link",
+        "recommend": true,
+        "desc": {
+          "/": "Add a icon to the external link in your markdown content",
+          "/zh/": "为你的 Markdown 内容中的外部链接添加图标"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-external-link-icon",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/external-link-icon.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/external-link-icon.html"
+        }
+      },
+      {
+        "name": "@vuepress/git",
+        "icon": "link",
+        "recommend": true,
+        "desc": {
+          "/": "Collect git information of your pages, including the created and updated time, the contributors, etc.",
+          "/zh/": "收集页面的 Git 信息，包括创建和更新时间，贡献者等"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-git",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/git.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/git.html"
+        }
+      },
+      {
+        "name": "@vuepress/theme-data",
+        "icon": "tree",
+        "recommend": true,
+        "desc": {
+          "/": "Provide client data for your theme, with VuePress I18n support.",
+          "/zh/": "为你的主题提供客户端数据，支持 VuePress 多语言。"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-theme-data",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/theme-data.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/theme-data.html"
+        }
+      },
+      {
+        "name": "@vuepress/toc",
+        "icon": "tree",
+        "recommend": true,
+        "desc": {
+          "/": "Provide a table-of-contents (TOC) component.",
+          "/zh/": "提供一个目录组件。"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-toc",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/toc.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/toc.html"
+        }
+      },
+      {
+        "name": "sass-palette",
+        "icon": "palette",
+        "recommend": true,
+        "desc": {
+          "/": "Palette plugin for sass, an improved edition over the official one.",
+          "/zh/": "Sass 调色板插件，比官方的更好用。"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/sass-palette/",
+        "url": {
+          "/": "plugin-sass-palette.vuejs.press",
+          "/zh/": "plugin-sass-palette.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "vuepress-shared",
+        "packageName": "vuepress-shared",
+        "recommend": true,
+        "icon": "tool",
+        "desc": {
+          "/": "Useful VuePress2 util functions for developers",
+          "/zh/": "面向开发者的 VuePress2 实用工具函数"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/shared/",
+        "url": {
+          "/": "shared.vuejs.press",
+          "/zh/": "shared.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "@vuepress/palette",
+        "icon": "palette",
+        "desc": {
+          "/": " Provide palette support for your theme.",
+          "/zh/": "为你的主题提供调色板支持。"
+        },
+        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-palette",
+        "url": {
+          "/": "https://v2.vuepress.vuejs.org/reference/plugin/palette.html",
+          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/palette.html"
+        }
+      },
+      {
+        "name": "reading-time2",
+        "icon": "read",
+        "desc": {
+          "/": "Count words and generate reading time for articles",
+          "/zh/": "统计文章字数并生成阅读时间"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/reading-time2/",
+        "url": {
+          "/": "plugin-reading-time2.vuejs.press",
+          "/zh/": "plugin-reading-time2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "use-pages",
+        "icon": "page",
+        "tag": "latest",
+        "desc": {
+          "/": " Use pages data in your docs.<br><div style='color:red'>Not recommended as it will have serious performance impact on large sites.</div>",
+          "/zh/": "在你的文档中使用页面数据。<br><div style='color:red'>不推荐，因为它会对大型站点产生严重的性能影响。</div>"
+        },
+        "source": "monsat/vuepress-plugin-use-pages",
+        "url": "https://github.com/monsat/vuepress-plugin-use-pages"
+      },
+      {
+        "name": "@snippetors/tabs",
+        "icon": "tab",
+        "tag": "latest",
+        "desc": {
+          "/": " VuePress2 plugin which renders custom markdown containers as tabs, for vuepress v2.x",
+          "/zh/": "VuePress2 插件，将自定义的 markdown 容器渲染为选项卡，适用于 vuepress v2.x"
+        },
+        "source": "Snippetors/snippets/tree/main/packages/%40snippetors/vuepress-plugin-tabs",
+        "url": "https://snippetors.github.io/plugins/vuepress-plugin-tabs.html"
+      },
+      {
+        "name": "netabare-switch",
+        "icon": "tab",
+        "tag": "latest",
+        "desc": {
+          "/": " VuePress2 plugin to add toggle switch for spoilers.",
+          "/zh/": "VuePress2 插件，用于添加剧透开关。"
+        },
+        "source": "monsat/vuepress-plugin-netabare-switch",
+        "url": "https://github.com/monsat/vuepress-plugin-netabare-switch"
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Blog Related",
+      "/zh/": "博客相关"
+    },
+    "items": [
+      {
+        "name": "blog2",
+        "icon": "article",
+        "recommend": true,
+        "desc": {
+          "/": "VuePress2 blog plugin",
+          "/zh/": "VuePress2 博客插件"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/blog2/",
+        "url": {
+          "/": "plugin-blog2.vuejs.press",
+          "/zh/": "plugin-blog2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "feed2",
+        "icon": "rss",
+        "recommend": true,
+        "desc": {
+          "/": "Feed plugin supporting atom, json and rss syntax feeds",
+          "/zh/": "支持 atom、json 和 rss 格式的订阅流插件"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/feed2/",
+        "url": {
+          "/": "plugin-feed2.vuejs.press",
+          "/zh/": "plugin-feed2.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "social-share",
+        "icon": "share",
+        "recommend": true,
+        "desc": {
+          "/": "Social media sharing plugin",
+          "/zh/": "社交媒体分享插件"
+        },
+        "source": "ntnyq/vuepress-plugin-social-share",
+        "url": "social-share.ntnyq.com"
+      },
+      {
+        "name": "blog-sync",
+        "icon": "async",
+        "desc": {
+          "/": "Generate VuePress site automatically with given info of other sites",
+          "/zh/": "根据给定的其他站点信息自动生成整个 VuePress 站点"
+        },
+        "tag": "latest",
+        "source": "flytam/vuepress-plugin-blog-sync",
+        "url": "github.com/flytam/vuepress-plugin-blog-sync/"
+      }
+    ]
+  }
+]
