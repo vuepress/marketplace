@@ -11,7 +11,7 @@ export default hopeTheme({
 
   docsDir: "src",
 
-  pageInfo: ["Author", "Date", "ReadingTime"],
+  pageInfo: false,
 
   locales: {
     "/": {
@@ -19,7 +19,7 @@ export default hopeTheme({
       navbar: ["/", "/plugins/", "/themes/"],
 
       // sidebar
-      sidebar: false,
+      sidebar: "structure",
 
       footer:
         'Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | CC0 Licensed',
@@ -39,7 +39,7 @@ export default hopeTheme({
       navbar: ["/zh/", "/zh/plugins/", "/zh/themes/"],
 
       // sidebar
-      sidebar: false,
+      sidebar: "structure",
 
       footer:
         '主题使用 <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | CC0 协议',
@@ -54,6 +54,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    components: {
+      components: ["Catalog"],
+    },
     comment: {
       provider: "Giscus",
       repo: "vuepress/marketplace",

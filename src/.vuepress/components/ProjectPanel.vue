@@ -52,14 +52,7 @@ const panelHeader = computed(() => {
   .projects {
     display: flex;
     flex-wrap: wrap;
-    align-content: stretch;
     align-items: stretch;
-    justify-content: center;
-
-    &:first-child {
-      border-top: 1px solid var(--border-color);
-      transition: border-color var(--color-transition);
-    }
   }
 }
 </style>

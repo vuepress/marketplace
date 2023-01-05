@@ -8,8 +8,8 @@ The repo holds the source code for the VuePress2 Marketplace website.
 
 You are free to add your plugins and themes to the site, just open a new PR.
 
-- To add a plugin, you should edit `config/plugins.json` and add your plugin to the end of proper list.
-- To add a theme, you should edit `config/themes.json` and add your plugin to the end of proper list.
+- To add a plugin, you should edit `config/plugins/<catagory>.json` and add your plugin to the end of proper list.
+- To add a theme, you should edit `config/themes/<catagory>.json` and add your plugin to the end of proper list.
 
 <details>
 <summary>These contents should be included in your PR body</summary>

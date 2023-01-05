@@ -1,11 +1,10 @@
 ---
 title: Themes
 icon: palette
-layout: PackageList
+index: false
+dir:
+  collapsible: false
+  order: 2
 ---
 
-<ProjectPanel v-for="item in themeConfig" v-bind="item" />
-
-<script setup lang="ts">
-import themeConfig from '@theme-config'
-</script>
+<Catalog />
