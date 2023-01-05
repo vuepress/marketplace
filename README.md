@@ -1,4 +1,4 @@
-# [VuePress2 Marketplace](https://vuejs.vuepress)
+# [VuePress2 Marketplace](https://vuejs.press)
 
 ## Introduction
 
