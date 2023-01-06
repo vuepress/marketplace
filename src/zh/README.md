@@ -1,5 +1,6 @@
 ---
 home: true
+index: false
 icon: home
 title: 主页
 heroImage: /logo.png
@@ -15,8 +16,12 @@ actions:
     type: primary
 ---
 
+## 添加你的主题和插件
+
+请参阅 [贡献指南](./reference/contributing.md)
+
 ::: center
 
-## 在此表达你的反馈!
+## 在此表达你的反馈
 
 :::

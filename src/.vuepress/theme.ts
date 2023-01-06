@@ -67,6 +67,7 @@ export default hopeTheme({
 
     mdEnhance: {
       align: true,
+      tasklist: true,
     },
 
     photoSwipe: false,

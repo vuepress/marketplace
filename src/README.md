@@ -1,5 +1,6 @@
 ---
 home: true
+index: false
 icon: home
 title: Home
 heroImage: /logo.png
@@ -15,8 +16,12 @@ actions:
     type: primary
 ---
 
+## Adding your theme and plugins
+
+See [Contributing Guide](./reference/contributing.md)
+
 ::: center
 
-## Share your feedback here!
+## Share your feedback here
 
 :::

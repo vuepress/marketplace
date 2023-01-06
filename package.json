@@ -7,10 +7,35 @@
   "scripts": {
     "build": "vuepress build src",
     "clean-dev": "vuepress dev src --clean-cache",
-    "dev": "vuepress dev src"
+    "dev": "vuepress dev src",
+    "prepare": "husky install",
+    "lint:md": "markdownlint **/*.md"
   },
   "license": "CC0",
   "packageManager": "pnpm@7.22.0",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0",
+    "npm": ">=8",
+    "pnpm": ">=7"
+  },
+  "nano-staged": {
+    "*.vue": [
+      "prettier --write"
+    ],
+    "*.{js,ts}": [
+      "prettier --write"
+    ],
+    "*.md": [
+      "markdownlint",
+      "prettier --write"
+    ],
+    "*.{json,yml}": [
+      "prettier --write"
+    ],
+    "*.scss": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "@vuepress/client": "2.0.0-beta.60",
     "@vuepress/shared": "2.0.0-beta.60",
@@ -19,5 +44,11 @@
     "vuepress": "2.0.0-beta.60",
     "vuepress-shared": "2.0.0-beta.151",
     "vuepress-theme-hope": "2.0.0-beta.151"
+  },
+  "devDependencies": {
+    "husky": "8.0.3",
+    "markdownlint-cli": "0.32.2",
+    "nano-staged": "0.8.0",
+    "prettier": "2.8.1"
   }
 }

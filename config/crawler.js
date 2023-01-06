@@ -3,95 +3,96 @@
  *
  * You should edit the following config if you want to use docsearch as crawler while you apply vuejs.press subdomain.
  *
- * @property {boolean|string} sitemap [false] Whether the plugin has sitemap or it's sitemap location
- *  default location is '/sitemap.xml'
- * @property {Function|'vuepress/default'|'hope'} recordExtractor ['vuepress/default'] Record extractor function
- * @property {Object} initialIndexSettings initialIndexSettings
+ * @property {boolean|string} sitemap [false]
+ * Whether the plugin has sitemap or it's sitemap location. Default location is '/sitemap.xml'
+ *
+ * @property {'vuepress/default'|'hope'|Function} recordExtractor ['vuepress/default']
+ * Record extractor function, built-in support added for `@vuepress/theme-default` and `vuepress-theme-hope` so you can use `vuepress/default` and `hope` keywords.
+ *
+ * @property {Object} initialIndexSettings Additional initialIndexSettings you want
  */
-
 const crawlerConfig = {
-  plugin: {
-    "auto-catalog": {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    blog2: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    comment2: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    components: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    "copy-code2": {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    copyright2: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    feed2: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    lightgallery: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    "md-enhance": {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    "photo-swipe": {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    pwa2: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    "reading-time2": {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    redirect: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    "remove-pwa": {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    "sass-palette": {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    seo2: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
-    sitemap2: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
+  "plugin-auto-catalog": {
+    sitemap: true,
+    recordExtractor: "hope",
   },
-  theme: {
-    hope: {
-      sitemap: true,
-      recordExtractor: "hope",
-    },
+  "plugin-blog2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-comment2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-components": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-copy-code2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-copyright2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-feed2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-lightgallery": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-md-enhance": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-photo-swipe": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-pwa2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-reading-time2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-redirect": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-remove-pwa": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-sass-palette": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-seo2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+  "plugin-sitemap2": {
+    sitemap: true,
+    recordExtractor: "hope",
+  },
+
+  "theme-hope": {
+    sitemap: true,
+    recordExtractor: "hope",
   },
 };
 
 /*
  * ====================================================
+ *
  * Below are scripts which generate the correct crawler
  * Normally you should NOT edit them in PR
+ *
  * ====================================================
  */
 
@@ -197,108 +198,61 @@ const recordExtractorMap = {
     }),
 };
 
-const getSubdomain = (name, type) => {
-  if (name.includes("/")) {
-    const [org, pkg] = name.split("/");
-
-    return `${org}-${type}-${pkg}`;
-  }
-
-  return `${type}-${name}`;
-};
-
-const getUrl = (name, type) =>
-  `https://${getSubdomain(name, type)}.vuejs.press`;
+const getUrl = (name) => `https://${name}.vuejs.press`;
 
 new Crawler({
   rateLimit: 25,
   startUrls: [
     "https://vuejs.press",
-    ...Object.entries(crawlerConfig)
-      .map(([type, config]) =>
-        Object.keys(config).map((name) => getUrl(name, type))
-      )
-      .flat(),
+    ...Object.entries(crawlerConfig).map((name) => getUrl(name)),
   ],
   sitemaps: [
     "https://vuejs.press/sitemap.xml",
     ...Object.entries(crawlerConfig)
-      .map(([type, config]) =>
-        Object.entries(config)
-          .filter(([, { sitemap }]) => Boolean(sitemap))
-          .map(
-            ([name, { sitemap }]) =>
-              `${getUrl(name, type)}/${
-                typeof sitemap === "string" ? sitemap : "sitemap.xml"
-              }}`
-          )
-      )
-      .flat(),
+      .filter(([, { sitemap }]) => Boolean(sitemap))
+      .map(
+        ([name, { sitemap }]) =>
+          `${getUrl(name)}/${
+            typeof sitemap === "string" ? sitemap : "sitemap.xml"
+          }}`
+      ),
   ],
   ignoreCanonicalTo: false,
   exclusionPatterns: [],
   discoveryPatterns: [
     "https://vuejs.press/**",
-    ...Object.entries(crawlerConfig)
-      .map(([type, config]) =>
-        Object.keys(config).map((name) => `${getUrl(name, type)}/**`)
-      )
-      .flat(),
+    ...Object.keys(crawlerConfig).map((name) => `${getUrl(name)}/**`),
   ],
   schedule: "at 20:00 every 1 day",
   actions: [
     {
       indexName: "vuejs-press",
       pathsToMatch: "https://vuejs.press/**",
-      recordExtractor: ({ helpers }) =>
-        helpers.docsearch({
-          recordProps: {
-            lvl0: {
-              selectors: ".sidebar-heading.active",
-              defaultValue: "Documentation",
-            },
-            lvl1: ".theme-hope-content h1",
-            lvl2: ".theme-hope-content h2",
-            lvl3: ".theme-hope-content h3",
-            lvl4: ".theme-hope-content h4",
-            lvl5: ".theme-hope-content h5",
-            lvl6: ".theme-hope-content h6",
-            content: ".theme-hope-content p, .theme-hope-content li",
-          },
-          indexHeadings: true,
-        }),
+      recordExtractor: recordExtractorMap.hope,
     },
-    ...Object.entries(crawlerConfig)
-      .map(([type, config]) =>
-        Object.entries(config).map(
-          ([name, { recordExtractor = "vuepress/default" }]) => {
-            return {
-              indexName: getSubdomain(name, type),
-              pathsToMatch: `${getUrl(name, type)}/**`,
-              recordExtractor:
-                typeof recordExtractor === "function"
-                  ? recordExtractor
-                  : recordExtractorMap[recordExtractor] ||
-                    recordExtractorMap["vuepress/default"],
-            };
-          }
-        )
-      )
-      .flat(),
+    ...Object.entries(crawlerConfig).map(
+      ([name, { recordExtractor = "vuepress/default" }]) => {
+        return {
+          indexName: name,
+          pathsToMatch: `${getUrl(name)}/**`,
+          recordExtractor:
+            typeof recordExtractor === "function"
+              ? recordExtractor
+              : recordExtractorMap[recordExtractor] ||
+                recordExtractorMap["vuepress/default"],
+        };
+      }
+    ),
   ],
   initialIndexSettings: {
     "vuejs-press": commonInitialIndexSettings,
     ...Object.fromEntries(
-      Object.entries(crawlerConfig)
-        .map(([type, config]) =>
-          Object.entries(config).map(
-            ([name, { initialIndexSettings = {} }]) => [
-              getSubdomain(name, type),
-              { ...commonInitialIndexSettings, ...initialIndexSettings },
-            ]
-          )
-        )
-        .flat(1)
+      Object.entries(crawlerConfig).map(
+        ([name, { initialIndexSettings = {} }]) => [
+          name,
+          { ...commonInitialIndexSettings, ...initialIndexSettings },
+        ]
+      )
     ),
   },
 });

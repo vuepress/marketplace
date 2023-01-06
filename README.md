@@ -8,8 +8,10 @@ The repo holds the source code for the VuePress2 Marketplace website.
 
 You are free to add your plugins and themes to the site, just open a new PR.
 
-- To add a plugin, you should edit `config/plugins/<catagory>.json` and add your plugin to the end of proper list.
-- To add a theme, you should edit `config/themes/<catagory>.json` and add your plugin to the end of proper list.
+- To add a plugin, you should edit `config/plugins/<catagory>.json` and add your plugin to **the end of** proper list.
+- To add a theme, you should edit `config/themes/<catagory>.json` and add your plugin to **the end of** proper list.
+
+If you believe you are building a powerful theme or plugin that can be list in multiple categories, you can add theme in multiple places.
 
 <details>
 <summary>These contents should be included in your PR body</summary>
@@ -17,9 +19,10 @@ You are free to add your plugins and themes to the site, just open a new PR.
 - [x] My work is open source and licensed under MIT or Apache-2.0.
 - [x] My work is a plugin or theme for VuePress 2, or tools related with VuePress 2.
 - [x] My work is workable with latest VuePress 2 version now, and I will keep supporting later VuePress 2 versions. I promise if I abandon my project, I will open another PR to remove it.
+
 </details>
 
-For details, see [Contributing Guide](https://github.com/vuepress/marketplace/blob/main/CONTRIBUTING.md)
+For more details, see [Contributing Guide](https://vuejs.press/reference/contributing.html)
 
 ## Requesting vuejs.press domain
 
@@ -41,11 +44,16 @@ You should add a new line in `config/vuejs.press.zone`, and we will sync that fi
 - [x] My work is a plugin or theme for VuePress 2, or tools related with VuePress 2.
 - [x] My work is workable with latest VuePress 2 version now, and I will keep supporting later VuePress 2 versions. I promise if I abandon my project, I will open another PR to remove it.
 - [x] I promise only documentation content is served at subdomain I apply to.
+
 </details>
 
-For details, see [Contributing Guide](https://github.com/vuepress/marketplace/blob/main/CONTRIBUTING.md)
+If you need algolia docsearch, you should modify `config/crawler.config` to add your plugin of theme.
+
+For details, see [Contributing Guide](https://vuejs.press/reference/contributing.html)
 
 ## License
+
+<!-- markdownlint-disable MD033 -->
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <a rel="license"
