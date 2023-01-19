@@ -1,6 +1,6 @@
 ---
 title: Plugins
-icon: plugin
+icon: puzzle-piece
 index: false
 dir:
   collapsible: false

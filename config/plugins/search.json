@@ -7,7 +7,7 @@
     "items": [
       {
         "name": "@vuepress/docsearch",
-        "icon": "/assets/logo/algolia.svg",
+        "icon": "fab fa-algolia",
         "recommend": true,
         "desc": {
           "/": "Integrate <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> into VuePress",

@@ -1,6 +1,6 @@
 ---
 title: 贡献指南
-icon: guide
+icon: signs-post
 ---
 
 ## 添加你的插件和主题

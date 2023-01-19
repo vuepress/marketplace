@@ -7,7 +7,7 @@
     "items": [
       {
         "name": "@vuepress/container",
-        "icon": "box",
+        "icon": "box-open",
         "recommend": true,
         "desc": {
           "/": "Register markdown custom containers in your VuePress site",
@@ -22,7 +22,7 @@
       {
         "name": "md-enhance",
         "title": "attrs",
-        "icon": "object",
+        "icon": "code",
         "recommend": true,
         "desc": {
           "/": "Add attrs to markdown elements",
@@ -51,7 +51,7 @@
       {
         "name": "md-enhance",
         "title": "hint-container",
-        "icon": "creative",
+        "icon": "lightbulb",
         "recommend": true,
         "desc": {
           "/": "Add hint containers in markdown",
@@ -66,7 +66,7 @@
       {
         "name": "md-enhance",
         "title": "tabs",
-        "icon": "tab",
+        "icon": "table-columns",
         "recommend": true,
         "desc": {
           "/": "Add Tab groups in Markdown",
@@ -81,7 +81,7 @@
       {
         "name": "md-enhance",
         "title": "code-tab",
-        "icon": "tab",
+        "icon": "table-columns",
         "recommend": true,
         "desc": {
           "/": "Add code tabs in markdown",
@@ -96,7 +96,7 @@
       {
         "name": "md-enhance",
         "title": "footnote",
-        "icon": "superscript",
+        "icon": "quote-left",
         "recommend": true,
         "desc": {
           "/": "Footnote grammar support",
@@ -111,7 +111,7 @@
       {
         "name": "md-enhance",
         "title": "task list",
-        "icon": "check",
+        "icon": "square-check",
         "recommend": true,
         "desc": {
           "/": "Tasklist grammar support",
@@ -126,7 +126,7 @@
       {
         "name": "md-enhance",
         "title": "image caption, resize and lazyload",
-        "icon": "pic",
+        "icon": "image",
         "recommend": true,
         "desc": {
           "/": "Support image size grammar, displaying image as figure and image lazyloading",
@@ -156,7 +156,7 @@
       {
         "name": "md-enhance",
         "title": "katex and mathjax support",
-        "icon": "tex",
+        "icon": "square-root-variable",
         "recommend": true,
         "desc": {
           "/": "Render tex equations with katex or mathjax",
@@ -170,7 +170,7 @@
       },
       {
         "name": "components",
-        "icon": "plugin",
+        "icon": "puzzle-piece",
         "recommend": true,
         "desc": {
           "/": "Useful components in markdown",
@@ -185,7 +185,7 @@
       {
         "name": "md-enhance",
         "title": "align",
-        "icon": "align",
+        "icon": "align-center",
         "desc": {
           "/": "Customize elements alignment in Markdown",
           "/zh/": "在 Markdown 中自定义元素对齐方式"
@@ -213,7 +213,7 @@
       {
         "name": "md-enhance",
         "title": "mark",
-        "icon": "write",
+        "icon": "highlighter",
         "desc": {
           "/": "Highlight words with mark grammar",
           "/zh/": "通过标记语法高亮字词"
@@ -227,7 +227,7 @@
       {
         "name": "md-enhance",
         "title": "Stylize",
-        "icon": "style",
+        "icon": "wand-magic-sparkles",
         "desc": {
           "/": "Stylize words the way you like",
           "/zh/": "以你喜欢的方式样式化字词"
@@ -240,7 +240,7 @@
       },
       {
         "name": "netabare-switch",
-        "icon": "tab",
+        "icon": "toggle-on",
         "tag": "latest",
         "desc": {
           "/": " VuePress2 plugin to add toggle switch for spoilers.",
@@ -251,7 +251,7 @@
       },
       {
         "name": "@snippetors/tabs",
-        "icon": "tab",
+        "icon": "table-columns",
         "tag": "latest",
         "desc": {
           "/": " VuePress2 plugin which renders custom markdown containers as tabs, for vuepress v2.x",
@@ -285,7 +285,7 @@
       {
         "name": "md-enhance",
         "title": "ECharts",
-        "icon": "rank",
+        "icon": "chart-area",
         "recommend": true,
         "desc": {
           "/": "Integrate ECharts to display charts in Markdown",
@@ -300,7 +300,7 @@
       {
         "name": "md-enhance",
         "title": "Mermaid",
-        "icon": "diagram",
+        "icon": "chart-pie",
         "recommend": true,
         "desc": {
           "/": "Integrate Mermaid to display diagrams in Markdown",
@@ -315,7 +315,7 @@
       {
         "name": "md-enhance",
         "title": "Vue Playground",
-        "icon": "discover",
+        "icon": "fab fa-vuejs",
         "recommend": true,
         "desc": {
           "/": "Integrate Vue Playground in Markdown",
@@ -330,7 +330,7 @@
       {
         "name": "md-enhance",
         "title": "Slides",
-        "icon": "slides",
+        "icon": "person-chalkboard",
         "recommend": true,
         "desc": {
           "/": "Integrate slides with Reveal.js in Markdown",
@@ -359,7 +359,7 @@
       {
         "name": "md-enhance",
         "title": "Chart.js",
-        "icon": "rank",
+        "icon": "chart-simple",
         "desc": {
           "/": "Integrate Chart.js to display charts in Markdown",
           "/zh/": "在 Markdown 中集成 Chart.js 以显示图表"
@@ -373,7 +373,7 @@
       {
         "name": "md-enhance",
         "title": "Flowchart",
-        "icon": "tree",
+        "icon": "route",
         "desc": {
           "/": "Integrate flowchart.js to display flowcharts in Markdown",
           "/zh/": "在 Markdown 集成 flowchart.js 中以显示流程图"
@@ -387,7 +387,7 @@
       {
         "name": "md-enhance",
         "title": "Code demo",
-        "icon": "discover",
+        "icon": "splotch",
         "desc": {
           "/": "Run and show code snippets in Markdown",
           "/zh/": "在 Markdown 中运行并展示代码片段"
@@ -401,7 +401,7 @@
       {
         "name": "md-enhance",
         "title": "Playground",
-        "icon": "discover",
+        "icon": "code",
         "desc": {
           "/": "Integrate external playground services in Markdown",
           "/zh/": "在 Markdown 中集成外部 playground 服务"
@@ -435,7 +435,7 @@
     "items": [
       {
         "name": "markdown-define2",
-        "icon": "define",
+        "icon": "anchor",
         "tag": "latest",
         "desc": {
           "/": "Define variables in markdown",

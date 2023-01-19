@@ -1,6 +1,6 @@
 ---
 title: 站点管理
-icon: setting
+icon: gear
 ---
 
 <ProjectPanel v-for="item in config" v-bind="item" />

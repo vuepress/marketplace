@@ -1,6 +1,6 @@
 ---
 title: Site Management
-icon: setting
+icon: gear
 ---
 
 <ProjectPanel v-for="item in config" v-bind="item" />

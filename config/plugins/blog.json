@@ -7,7 +7,7 @@
     "items": [
       {
         "name": "blog2",
-        "icon": "article",
+        "icon": "blog",
         "recommend": true,
         "desc": {
           "/": "VuePress2 blog plugin",
@@ -21,7 +21,7 @@
       },
       {
         "name": "posts",
-        "icon": "note",
+        "icon": "edit",
         "tag": "latest",
         "desc": {
           "/": "Blog plugin which generate posts information",
@@ -81,7 +81,7 @@
     "items": [
       {
         "name": "comment2",
-        "icon": "comment",
+        "icon": "comment-dots",
         "recommend": true,
         "desc": {
           "/": "Comment plugin supporting Giscus, Twikoo and Waline",
@@ -103,7 +103,7 @@
     "items": [
       {
         "name": "auto-catalog",
-        "icon": "tree",
+        "icon": "network-wired",
         "recommend": true,
         "desc": {
           "/": "Plugins to generate catalog page automatically",
@@ -117,7 +117,7 @@
       },
       {
         "name": "blog-sync",
-        "icon": "async",
+        "icon": "rotate",
         "desc": {
           "/": "Generate VuePress site automatically with given info of other sites",
           "/zh/": "根据给定的其他站点信息自动生成整个 VuePress 站点"
@@ -128,7 +128,7 @@
       },
       {
         "name": "reading-time2",
-        "icon": "read",
+        "icon": "book-open",
         "desc": {
           "/": "Count words and generate reading time for articles",
           "/zh/": "统计文章字数并生成阅读时间"
@@ -149,7 +149,7 @@
     "items": [
       {
         "name": "copyright2",
-        "icon": "info",
+        "icon": "circle-info",
         "recommend": true,
         "desc": {
           "/": "Append copyright information while copying, while supports preventing selection and copy",
@@ -171,7 +171,7 @@
     "items": [
       {
         "name": "oh-my-live2d",
-        "icon": "flower",
+        "icon": "child-dress",
         "recommend": true,
         "tag": "latest",
         "desc": {

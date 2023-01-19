@@ -1,6 +1,6 @@
 ---
 title: Contributing Guide
-icon: guide
+icon: signs-post
 ---
 
 ## Adding your plugins and themes
