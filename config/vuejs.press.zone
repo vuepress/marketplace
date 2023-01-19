@@ -77,7 +77,7 @@ shared	600	IN	CNAME	vuepress-shared.netlify.app.
 theme-hope	600	IN	CNAME	vuepress-theme-hope.netlify.app.
 theme-hope-blog-demo	600	IN	CNAME	vuepress-theme-hope-blog-demo.netlify.app.
 theme-hope-docs-demo	600	IN	CNAME	vuepress-theme-hope-docs-demo.netlify.app.
-oh-my-live2d	600	IN	CNAME	oh-my-live2d.netlify.app.
+plugin-oh-my-live2d	600	IN	CNAME	oh-my-live2d.netlify.app.
 
 ; NS records
 @	86400	IN	NS	rubine.dnspod.net.
