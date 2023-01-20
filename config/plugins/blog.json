@@ -179,7 +179,10 @@
           "/zh/": "live2d 看板娘插件"
         },
         "source": "oh-my-live2d/vuepress-plugin-oh-my-live2d",
-        "url": "https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d"
+        "url": {
+          "/": "plugin-oh-my-live2d.vuejs.press",
+          "/zh/": "plugin-oh-my-live2d.vuejs.press/zh/"
+        }
       }
     ]
   }
