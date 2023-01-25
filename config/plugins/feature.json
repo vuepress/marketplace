@@ -8,6 +8,7 @@
       {
         "name": "photo-swipe",
         "icon": "images",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Image preview plugin based on photo-swipe",
@@ -22,6 +23,7 @@
       {
         "name": "lightgallery",
         "icon": "images",
+        "tag": "latest",
         "desc": {
           "/": "Image preview plugin based on lightgallery",
           "/zh/": "基于 lightgallery 的图片预览插件"
@@ -57,6 +59,7 @@
       {
         "name": "comment2",
         "icon": "comment-dots",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Comment plugin supporting Giscus, Twikoo and Waline",
@@ -79,6 +82,7 @@
       {
         "name": "auto-catalog",
         "icon": "network-wired",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Plugins to generate catalog page automatically",
@@ -93,6 +97,7 @@
       {
         "name": "components",
         "icon": "puzzle-piece",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Useful components in markdown",
@@ -107,6 +112,7 @@
       {
         "name": "copy-code2",
         "icon": "copy",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Provide copy button for code blocks.",
@@ -121,6 +127,7 @@
       {
         "name": "copyright2",
         "icon": "circle-info",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Append copyright information while copying, while supports preventing selection and copy",

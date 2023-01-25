@@ -23,6 +23,7 @@
         "name": "md-enhance",
         "title": "attrs",
         "icon": "code",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Add attrs to markdown elements",
@@ -52,6 +53,7 @@
         "name": "md-enhance",
         "title": "hint-container",
         "icon": "lightbulb",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Add hint containers in markdown",
@@ -67,6 +69,7 @@
         "name": "md-enhance",
         "title": "tabs",
         "icon": "table-columns",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Add Tab groups in Markdown",
@@ -82,6 +85,7 @@
         "name": "md-enhance",
         "title": "code-tab",
         "icon": "table-columns",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Add code tabs in markdown",
@@ -97,6 +101,7 @@
         "name": "md-enhance",
         "title": "footnote",
         "icon": "quote-left",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Footnote grammar support",
@@ -112,6 +117,7 @@
         "name": "md-enhance",
         "title": "task list",
         "icon": "square-check",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Tasklist grammar support",
@@ -127,6 +133,7 @@
         "name": "md-enhance",
         "title": "image caption, resize and lazyload",
         "icon": "image",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Support image size grammar, displaying image as figure and image lazyloading",
@@ -142,6 +149,7 @@
         "name": "md-enhance",
         "title": "include other markdown files",
         "icon": "at",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Import common markdown snippet into contents",
@@ -157,6 +165,7 @@
         "name": "md-enhance",
         "title": "katex and mathjax support",
         "icon": "square-root-variable",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Render tex equations with katex or mathjax",
@@ -172,6 +181,7 @@
         "name": "components",
         "icon": "puzzle-piece",
         "recommend": true,
+        "tag": "latest",
         "desc": {
           "/": "Useful components in markdown",
           "/zh/": "一些在 Markdown 中使用的组件"
@@ -186,6 +196,7 @@
         "name": "md-enhance",
         "title": "align",
         "icon": "align-center",
+        "tag": "latest",
         "desc": {
           "/": "Customize elements alignment in Markdown",
           "/zh/": "在 Markdown 中自定义元素对齐方式"
@@ -200,6 +211,7 @@
         "name": "md-enhance",
         "title": "Superscript and Subscript",
         "icon": "superscript",
+        "tag": "latest",
         "desc": {
           "/": "Superscript and Subscript grammar support",
           "/zh/": "支持上标和下标语法"
@@ -214,6 +226,7 @@
         "name": "md-enhance",
         "title": "mark",
         "icon": "highlighter",
+        "tag": "latest",
         "desc": {
           "/": "Highlight words with mark grammar",
           "/zh/": "通过标记语法高亮字词"
@@ -228,6 +241,7 @@
         "name": "md-enhance",
         "title": "Stylize",
         "icon": "wand-magic-sparkles",
+        "tag": "latest",
         "desc": {
           "/": "Stylize words the way you like",
           "/zh/": "以你喜欢的方式样式化字词"
@@ -287,6 +301,7 @@
         "title": "ECharts",
         "icon": "chart-area",
         "recommend": true,
+        "tag": "latest",
         "desc": {
           "/": "Integrate ECharts to display charts in Markdown",
           "/zh/": "在 Markdown 中集成 ECharts 以显示图表"
@@ -301,6 +316,7 @@
         "name": "md-enhance",
         "title": "Mermaid",
         "icon": "chart-pie",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Integrate Mermaid to display diagrams in Markdown",
@@ -316,6 +332,7 @@
         "name": "md-enhance",
         "title": "Vue Playground",
         "icon": "fab fa-vuejs",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Integrate Vue Playground in Markdown",
@@ -331,6 +348,7 @@
         "name": "md-enhance",
         "title": "Slides",
         "icon": "person-chalkboard",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Integrate slides with Reveal.js in Markdown",
@@ -360,6 +378,7 @@
         "name": "md-enhance",
         "title": "Chart.js",
         "icon": "chart-simple",
+        "tag": "latest",
         "desc": {
           "/": "Integrate Chart.js to display charts in Markdown",
           "/zh/": "在 Markdown 中集成 Chart.js 以显示图表"
@@ -374,6 +393,7 @@
         "name": "md-enhance",
         "title": "Flowchart",
         "icon": "route",
+        "tag": "latest",
         "desc": {
           "/": "Integrate flowchart.js to display flowcharts in Markdown",
           "/zh/": "在 Markdown 集成 flowchart.js 中以显示流程图"
@@ -388,6 +408,7 @@
         "name": "md-enhance",
         "title": "Code demo",
         "icon": "splotch",
+        "tag": "latest",
         "desc": {
           "/": "Run and show code snippets in Markdown",
           "/zh/": "在 Markdown 中运行并展示代码片段"
@@ -402,6 +423,7 @@
         "name": "md-enhance",
         "title": "Playground",
         "icon": "code",
+        "tag": "latest",
         "desc": {
           "/": "Integrate external playground services in Markdown",
           "/zh/": "在 Markdown 中集成外部 playground 服务"

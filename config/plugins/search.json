@@ -30,6 +30,7 @@
       {
         "name": "search-pro",
         "icon": "search",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Powerful client search plugin supporting full indexing",

@@ -7,6 +7,7 @@
     "items": [
       {
         "name": "vuepress-shared",
+        "tag": "latest",
         "packageName": "vuepress-shared",
         "recommend": true,
         "icon": "toolbox",
@@ -23,6 +24,7 @@
       {
         "name": "sass-palette",
         "icon": "palette",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Palette plugin for sass, an improved edition over the official one.",
@@ -45,6 +47,7 @@
       {
         "name": "vuepress-shared",
         "packageName": "vuepress-shared",
+        "tag": "latest",
         "recommend": true,
         "icon": "toolbox",
         "desc": {
@@ -177,6 +180,7 @@
       {
         "name": "reading-time2",
         "icon": "book-open",
+        "tag": "latest",
         "desc": {
           "/": "Count words and generate reading time for articles",
           "/zh/": "统计文章字数并生成阅读时间"

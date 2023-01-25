@@ -54,6 +54,7 @@
       {
         "name": "seo2",
         "icon": "wrench",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Auto-generating OGP and JSON-LD tags to enhance SEO",
@@ -68,6 +69,7 @@
       {
         "name": "sitemap2",
         "icon": "sitemap",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Sitemap generator",
@@ -94,6 +96,7 @@
       {
         "name": "redirect",
         "icon": "fas fa-eject fa-rotate-90",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Performing automatically redirects from old links to new ones",
@@ -125,6 +128,7 @@
       {
         "name": "pwa2",
         "icon": "mobile-screen",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "An enhanced PWA plugin supporting manifest generation and install prompt",

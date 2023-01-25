@@ -8,6 +8,7 @@
       {
         "name": "blog2",
         "icon": "blog",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "VuePress2 blog plugin",
@@ -41,6 +42,7 @@
       {
         "name": "feed2",
         "icon": "rss",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Feed plugin supporting atom, json and rss syntax feeds",
@@ -82,6 +84,7 @@
       {
         "name": "comment2",
         "icon": "comment-dots",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Comment plugin supporting Giscus, Twikoo and Waline",
@@ -104,6 +107,7 @@
       {
         "name": "auto-catalog",
         "icon": "network-wired",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Plugins to generate catalog page automatically",
@@ -129,6 +133,7 @@
       {
         "name": "reading-time2",
         "icon": "book-open",
+        "tag": "latest",
         "desc": {
           "/": "Count words and generate reading time for articles",
           "/zh/": "统计文章字数并生成阅读时间"
@@ -150,6 +155,7 @@
       {
         "name": "copyright2",
         "icon": "circle-info",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Append copyright information while copying, while supports preventing selection and copy",
