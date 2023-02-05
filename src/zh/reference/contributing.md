@@ -7,8 +7,8 @@ icon: signs-post
 
 你可以自由地将你的插件和主题添加到站点，只需提交一个新的 PR。
 
-- 要添加插件，你应该编辑 `config/plugins/<catagory>.json` 并将你的插件添加到**正确列表的末尾**。
-- 要添加主题，你应该编辑 `config/themes/<catagory>.json` 并将你的插件添加到**正确列表的末尾**。
+- 要添加插件，你应该编辑 `config/plugins/<category>.json` 并将你的插件添加到**正确列表的末尾**。
+- 要添加主题，你应该编辑 `config/themes/<category>.json` 并将你的插件添加到**正确列表的末尾**。
 
 如果你认为你正在构建一个强大的主题或插件，适用于在多个类别，你可以在多个地方添加它。
 
