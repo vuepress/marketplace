@@ -7,4 +7,4 @@ dir:
   order: 1
 ---
 
-<Catalog />
+<AutoCatalog />
