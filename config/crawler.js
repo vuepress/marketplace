@@ -161,7 +161,7 @@ const commonInitialIndexSettings = {
   removeWordsIfNoResults: "allOptional",
 };
 
-const recordExtractorMap = {
+export const recordExtractorMap = {
   "vuepress/default": ({ helpers }) =>
     helpers.docsearch({
       recordProps: {
@@ -200,12 +200,16 @@ const recordExtractorMap = {
 
 const getUrl = (name) => `https://${name}.vuejs.press`;
 
-new Crawler({
+export default {
+  appId: "4H91G9D3GD",
+  apiKey: "34532f86a6941fc826504e55118c1844",
   rateLimit: 25,
+  maxDepth: 10,
   startUrls: [
     "https://vuejs.press",
-    ...Object.entries(crawlerConfig).map((name) => getUrl(name)),
+    ...Object.entries(crawlerConfig).map(([name]) => getUrl(name)),
   ],
+  renderJavaScript: false,
   sitemaps: [
     "https://vuejs.press/sitemap.xml",
     ...Object.entries(crawlerConfig)
@@ -218,7 +222,6 @@ new Crawler({
       ),
   ],
   ignoreCanonicalTo: false,
-  exclusionPatterns: [],
   discoveryPatterns: [
     "https://vuejs.press/**",
     ...Object.keys(crawlerConfig).map((name) => `${getUrl(name)}/**`),
@@ -227,14 +230,14 @@ new Crawler({
   actions: [
     {
       indexName: "vuejs-press",
-      pathsToMatch: "https://vuejs.press/**",
+      pathsToMatch: ["https://vuejs.press/**"],
       recordExtractor: recordExtractorMap.hope,
     },
     ...Object.entries(crawlerConfig).map(
       ([name, { recordExtractor = "vuepress/default" }]) => {
         return {
           indexName: name,
-          pathsToMatch: `${getUrl(name)}/**`,
+          pathsToMatch: [`${getUrl(name)}/**`],
           recordExtractor:
             typeof recordExtractor === "function"
               ? recordExtractor
@@ -255,4 +258,4 @@ new Crawler({
       )
     ),
   },
-});
+};
