@@ -4,7 +4,7 @@ import { isLinkHttp, isPlainObject } from "@vuepress/shared";
 import { computed } from "vue";
 import { GitHubIcon, useLocaleConfig } from "vuepress-shared/client";
 
-import Icon from "@theme-hope/components/Icon";
+import Icon from "@theme-hope/components/HopeIcon";
 import { normalizePackageName } from "../utils/index.js";
 
 const props = withDefaults(

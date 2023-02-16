@@ -54,9 +54,6 @@ export default hopeTheme({
   },
 
   plugins: {
-    components: {
-      components: ["Catalog"],
-    },
     comment: {
       provider: "Giscus",
       repo: "vuepress/marketplace",
@@ -67,6 +64,7 @@ export default hopeTheme({
 
     mdEnhance: {
       align: true,
+      codetabs: true,
       tasklist: true,
     },
 
