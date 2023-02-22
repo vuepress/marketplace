@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 export default hopeTheme({
-  hostname: "https://vuejs.press",
+  hostname: "https://marketplacae.vuejs.press",
 
   iconAssets: "fontawesome-with-brands",
 

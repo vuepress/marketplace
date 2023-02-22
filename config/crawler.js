@@ -206,12 +206,12 @@ export default {
   rateLimit: 25,
   maxDepth: 10,
   startUrls: [
-    "https://vuejs.press",
+    "https://marketplace.vuejs.press",
     ...Object.entries(crawlerConfig).map(([name]) => getUrl(name)),
   ],
   renderJavaScript: false,
   sitemaps: [
-    "https://vuejs.press/sitemap.xml",
+    "https://marketplace.vuejs.press/sitemap.xml",
     ...Object.entries(crawlerConfig)
       .filter(([, { sitemap }]) => Boolean(sitemap))
       .map(
@@ -223,14 +223,14 @@ export default {
   ],
   ignoreCanonicalTo: false,
   discoveryPatterns: [
-    "https://vuejs.press/**",
+    "https://marketplace.vuejs.press/**",
     ...Object.keys(crawlerConfig).map((name) => `${getUrl(name)}/**`),
   ],
   schedule: "at 20:00 every 1 day",
   actions: [
     {
       indexName: "vuejs-press",
-      pathsToMatch: ["https://vuejs.press/**"],
+      pathsToMatch: ["https://marketplace.vuejs.press/**"],
       recordExtractor: recordExtractorMap.hope,
     },
     ...Object.entries(crawlerConfig).map(

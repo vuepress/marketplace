@@ -7,6 +7,10 @@ heroImage: /logo.png
 heroText: VuePress 市场
 tagline: 在此找到正确的 VuePress2 插件与主题
 actions:
+  - text: 文档
+    link: https://vuejs.press/zh/
+    type: primary
+
   - text: 插件
     link: /zh/plugins/
     type: primary

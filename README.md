@@ -1,4 +1,4 @@
-# [VuePress2 Marketplace](https://vuejs.press)
+# [VuePress2 Marketplace](https://marketplace.vuejs.press)
 
 ## Introduction
 
@@ -22,7 +22,7 @@ If you believe you are building a powerful theme or plugin that can be list in m
 
 </details>
 
-For more details, see [Contributing Guide](https://vuejs.press/reference/contributing.html)
+For more details, see [Contributing Guide](https://marketplace.vuejs.press/reference/contributing.html)
 
 ## Requesting vuejs.press domain
 
@@ -49,7 +49,7 @@ You should add a new line in `config/vuejs.press.zone`, and we will sync that fi
 
 If you need algolia docsearch, you should modify `config/crawler.config` to add your plugin of theme.
 
-For details, see [Contributing Guide](https://vuejs.press/reference/contributing.html)
+For details, see [Contributing Guide](https://marketplace.vuejs.press/reference/contributing.html)
 
 ## License
 
@@ -69,6 +69,6 @@ For details, see [Contributing Guide](https://vuejs.press/reference/contributing
   <span property="dct:title">VuePress MarketPlace</span>.
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
-      content="CN" about="https://vuejs.press">
+      content="CN" about="https://marketplace.vuejs.press">
   China Mainland</span>.
 </p>
