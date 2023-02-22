@@ -1,5 +1,5 @@
 ; Domain: vuejs.press
-; Exported at:2023-01-06 01:06:07 (Asia/Shanghai)
+; Exported at:2023-02-22 13:44:24 (Asia/Shanghai)
 ;
 ;      _/_/_/    _/      _/    _/_/_/  _/_/_/      _/_/    _/_/_/
 ;     _/    _/  _/_/    _/  _/        _/    _/  _/    _/  _/    _/
@@ -33,7 +33,7 @@ $ORIGIN vuejs.press.
 
 
 ; SOA record
-VUEJS.PRESS. 600 SOA rubine.dnspod.net. freednsadmin.dnspod.com. 1672801506 3600 180 1209600 180
+VUEJS.PRESS. 600 SOA rubine.dnspod.net. freednsadmin.dnspod.com. 1675528530 3600 180 1209600 180
 
 
 ; CNAME records
@@ -57,7 +57,6 @@ plugin-lightgallery	600	IN	CNAME	vuepress-plugin-lightgallery.netlify.app.
 plugin-lightgallery-demo	600	IN	CNAME	vuepress-plugin-lightgallery-demo.netlify.app.
 plugin-md-enhance	600	IN	CNAME	vuepress-plugin-md-enhance.netlify.app.
 plugin-md-enhance-demo	600	IN	CNAME	vuepress-plugin-md-enhance-demo.netlify.app.
-plugin-oh-my-live2d	600	IN	CNAME	plugin-oh-my-live2d.netlify.app.
 plugin-photo-swipe	600	IN	CNAME	vuepress-plugin-photo-swipe.netlify.app.
 plugin-photo-swipe-demo	600	IN	CNAME	vuepress-plugin-photo-swipe-demo.netlify.app.
 plugin-pwa2	600	IN	CNAME	vuepress-plugin-pwa2.netlify.app.
@@ -79,8 +78,14 @@ shared	600	IN	CNAME	vuepress-shared.netlify.app.
 theme-hope	600	IN	CNAME	vuepress-theme-hope.netlify.app.
 theme-hope-blog-demo	600	IN	CNAME	vuepress-theme-hope-blog-demo.netlify.app.
 theme-hope-docs-demo	600	IN	CNAME	vuepress-theme-hope-docs-demo.netlify.app.
+waline-comment	600	IN	CNAME	cname.vercel-dns.com.
+marketplace	600	IN	CNAME	vuepress-marketplace.netlify.app.
+
 
 ; NS records
 @	86400	IN	NS	rubine.dnspod.net.
 @	86400	IN	NS	bonnie.dnspod.net.
 
+
+; TXT records
+@	600	IN	TXT	"google-site-verification=Z9x_60uQmeJqyG1do6VhoXox3XkJ4jA6hSkeOECqU4E"
