@@ -186,8 +186,8 @@
         },
         "source": "oh-my-live2d/vuepress-plugin-oh-my-live2d",
         "url": {
-          "/": "plugin-oh-my-live2d.vuejs.press",
-          "/zh/": "plugin-oh-my-live2d.vuejs.press/zh/"
+          "/": "vuepress.oml2d.com",
+          "/zh/": "vuepress.oml2d.com/zh/"
         }
       }
     ]
