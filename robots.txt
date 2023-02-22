@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuejs.press/sitemap.xml
+Sitemap: https://marketplacae.vuejs.press/sitemap.xml
