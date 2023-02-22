@@ -7,7 +7,7 @@
     "items": [
       {
         "name": "@vuepress/docsearch",
-        "icon": "/assets/logo/algolia.svg",
+        "icon": "fab fa-algolia",
         "recommend": true,
         "desc": {
           "/": "Integrate <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> into VuePress",
@@ -30,6 +30,7 @@
       {
         "name": "search-pro",
         "icon": "search",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Powerful client search plugin supporting full indexing",

@@ -6,6 +6,7 @@
         "type": "theme",
         "name": "hope",
         "icon": "https://theme-hope.vuejs.press/logo.svg",
+        "tag": "latest",
         "desc": {
           "/": "VuePress theme with tons of features",
           "/zh/": "功能强大的 VuePress 主题"

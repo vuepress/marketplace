@@ -1,6 +1,6 @@
 ---
 title: Docs Themes
-icon: read
+icon: book
 order: 1
 ---
 

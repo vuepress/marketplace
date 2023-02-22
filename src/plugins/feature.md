@@ -1,6 +1,6 @@
 ---
 title: Plugins with New Features
-icon: discover
+icon: splotch
 ---
 
 <ProjectPanel v-for="item in config" v-bind="item" />

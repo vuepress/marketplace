@@ -57,6 +57,7 @@ plugin-lightgallery	600	IN	CNAME	vuepress-plugin-lightgallery.netlify.app.
 plugin-lightgallery-demo	600	IN	CNAME	vuepress-plugin-lightgallery-demo.netlify.app.
 plugin-md-enhance	600	IN	CNAME	vuepress-plugin-md-enhance.netlify.app.
 plugin-md-enhance-demo	600	IN	CNAME	vuepress-plugin-md-enhance-demo.netlify.app.
+plugin-oh-my-live2d	600	IN	CNAME	plugin-oh-my-live2d.netlify.app.
 plugin-photo-swipe	600	IN	CNAME	vuepress-plugin-photo-swipe.netlify.app.
 plugin-photo-swipe-demo	600	IN	CNAME	vuepress-plugin-photo-swipe-demo.netlify.app.
 plugin-pwa2	600	IN	CNAME	vuepress-plugin-pwa2.netlify.app.
@@ -64,6 +65,7 @@ plugin-pwa2-demo	600	IN	CNAME	vuepress-plugin-pwa2-demo.netlify.app.
 plugin-reading-time2	600	IN	CNAME	vuepress-plugin-reading-time2.netlify.app.
 plugin-redirect	600	IN	CNAME	vuepress-plugin-redirect.netlify.app.
 plugin-redirect-demo	600	IN	CNAME	vuepress-plugin-redirect-demo.netlify.app.
+plugin-rtl	600	IN	CNAME	vuepress-plugin-rtl.netlify.app.
 plugin-remove-pwa	600	IN	CNAME	vuepress-plugin-remove-pwa.netlify.app.
 plugin-sass-palette	600	IN	CNAME	vuepress-plugin-sass-palette.netlify.app.
 plugin-sass-palette-demo	600	IN	CNAME	vuepress-plugin-sass-palette-demo.netlify.app.
@@ -77,7 +79,6 @@ shared	600	IN	CNAME	vuepress-shared.netlify.app.
 theme-hope	600	IN	CNAME	vuepress-theme-hope.netlify.app.
 theme-hope-blog-demo	600	IN	CNAME	vuepress-theme-hope-blog-demo.netlify.app.
 theme-hope-docs-demo	600	IN	CNAME	vuepress-theme-hope-docs-demo.netlify.app.
-
 
 ; NS records
 @	86400	IN	NS	rubine.dnspod.net.

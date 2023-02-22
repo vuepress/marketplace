@@ -1,10 +1,10 @@
 ---
 title: 插件
-icon: plugin
+icon: puzzle-piece
 index: false
 dir:
   collapsible: false
   order: 1
 ---
 
-<Catalog />
+<AutoCatalog />

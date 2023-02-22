@@ -2,14 +2,14 @@
   <HopeHomePage>
     <!-- Introduce comment component using bottom slot -->
     <template #bottom>
-      <CommentService :darkmode="isDarkMode" />
+      <CommentService :darkmode="isDarkmode" />
     </template>
   </HopeHomePage>
 </template>
 <script setup lang="ts">
 import HopeHomePage from "vuepress-theme-hope/components/HomePage.js";
 
-import { useDarkMode } from "@theme-hope/modules/outlook/composables/index";
+import { useDarkmode } from "@theme-hope/modules/outlook/composables/index";
 
-const { isDarkMode } = useDarkMode();
+const { isDarkmode } = useDarkmode();
 </script>

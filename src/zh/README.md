@@ -16,6 +16,30 @@ actions:
     type: primary
 ---
 
+## 升级到最新的 VuePress2
+
+::: code-tabs#shell
+
+@tab pnpm
+
+```bash
+pnpm dlx vp-update
+```
+
+@tab yarn
+
+```bash
+yarn dlx vp-update
+```
+
+@tab npm
+
+```bash
+npx vp-update
+```
+
+:::
+
 ## 添加你的主题和插件
 
 请参阅 [贡献指南](./reference/contributing.md)

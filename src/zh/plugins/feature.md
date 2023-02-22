@@ -1,6 +1,6 @@
 ---
 title: 新功能
-icon: discover
+icon: splotch
 ---
 
 <ProjectPanel v-for="item in config" v-bind="item" />

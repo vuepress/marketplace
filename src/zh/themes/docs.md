@@ -1,6 +1,6 @@
 ---
 title: 文档主题
-icon: read
+icon: book
 order: 1
 ---
 

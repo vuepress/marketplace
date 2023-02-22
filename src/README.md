@@ -16,6 +16,30 @@ actions:
     type: primary
 ---
 
+## Upgrading to latest VuePress2
+
+::: code-tabs#shell
+
+@tab pnpm
+
+```bash
+pnpm dlx vp-update
+```
+
+@tab yarn
+
+```bash
+yarn dlx vp-update
+```
+
+@tab npm
+
+```bash
+npx vp-update
+```
+
+:::
+
 ## Adding your theme and plugins
 
 See [Contributing Guide](./reference/contributing.md)

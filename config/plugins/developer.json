@@ -7,9 +7,10 @@
     "items": [
       {
         "name": "vuepress-shared",
+        "tag": "latest",
         "packageName": "vuepress-shared",
         "recommend": true,
-        "icon": "tool",
+        "icon": "toolbox",
         "desc": {
           "/": "Useful VuePress2 util functions for developers",
           "/zh/": "面向开发者的 VuePress2 实用工具函数"
@@ -23,6 +24,7 @@
       {
         "name": "sass-palette",
         "icon": "palette",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Palette plugin for sass, an improved edition over the official one.",
@@ -45,8 +47,9 @@
       {
         "name": "vuepress-shared",
         "packageName": "vuepress-shared",
+        "tag": "latest",
         "recommend": true,
-        "icon": "tool",
+        "icon": "toolbox",
         "desc": {
           "/": "Useful VuePress2 util functions for developers",
           "/zh/": "面向开发者的 VuePress2 实用工具函数"
@@ -101,7 +104,7 @@
       },
       {
         "name": "@vuepress/git",
-        "icon": "link",
+        "icon": "fab fa-git-alt",
         "recommend": true,
         "desc": {
           "/": "Collect git information of your pages, including the created and updated time, the contributors, etc.",
@@ -115,7 +118,7 @@
       },
       {
         "name": "@vuepress/theme-data",
-        "icon": "tree",
+        "icon": "diagram-project",
         "recommend": true,
         "desc": {
           "/": "Provide client data for your theme, with VuePress I18n support.",
@@ -129,7 +132,7 @@
       },
       {
         "name": "@vuepress/toc",
-        "icon": "tree",
+        "icon": "network-wired",
         "recommend": true,
         "desc": {
           "/": "Provide a table-of-contents (TOC) component.",
@@ -143,7 +146,7 @@
       },
       {
         "name": "@goy/svg-icons",
-        "icon": "emoji",
+        "icon": "icons",
         "desc": {
           "/": "Managing svg icons via svg sprite",
           "/zh/": "通过 svg sprite 管理 svg 图标"
@@ -153,7 +156,7 @@
       },
       {
         "name": "iconify",
-        "icon": "emoji",
+        "icon": "icons",
         "desc": {
           "/": "Use icons in VuePress",
           "/zh/": "在 VuePress 中使用图标"
@@ -176,7 +179,8 @@
       },
       {
         "name": "reading-time2",
-        "icon": "read",
+        "icon": "book-open",
+        "tag": "latest",
         "desc": {
           "/": "Count words and generate reading time for articles",
           "/zh/": "统计文章字数并生成阅读时间"
@@ -189,7 +193,7 @@
       },
       {
         "name": "use-pages",
-        "icon": "page",
+        "icon": "file",
         "tag": "latest",
         "desc": {
           "/": " Use pages data in your docs.<br><div style='color:red'>Not recommended as it will have serious performance impact on large sites.</div>",

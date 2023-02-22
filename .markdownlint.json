@@ -12,7 +12,7 @@
   },
   "MD033": {
     "allowed_elements": [
-      "Catalog",
+      "AutoCatalog",
       "ProjectPanel",
       "details",
       "script",

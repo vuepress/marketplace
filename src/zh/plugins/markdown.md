@@ -1,6 +1,6 @@
 ---
 title: Markdown 相关
-icon: markdown
+icon: fab fa-markdown
 ---
 
 <ProjectPanel v-for="item in pluginMarkdownConfig" v-bind="item" />

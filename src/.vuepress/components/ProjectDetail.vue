@@ -2,11 +2,9 @@
 import { useRouteLocale } from "@vuepress/client";
 import { isLinkHttp, isPlainObject } from "@vuepress/shared";
 import { computed } from "vue";
-import { useLocaleConfig } from "vuepress-shared/client";
+import { GitHubIcon, useLocaleConfig } from "vuepress-shared/client";
 
-import { GitHubIcon } from "@theme-hope/modules/navbar/components/icons";
-import Icon from "@theme-hope/components/Icon";
-
+import Icon from "@theme-hope/components/HopeIcon";
 import { normalizePackageName } from "../utils/index.js";
 
 const props = withDefaults(
@@ -155,6 +153,10 @@ const open = () => {
     height: 1.1em;
     font-size: 1.1em;
     font-weight: normal;
+
+    .svg-inline--fa {
+      vertical-align: 0;
+    }
   }
 
   &:hover {

@@ -7,7 +7,7 @@
     "items": [
       {
         "name": "@vuepress/google-analytics",
-        "icon": "state",
+        "icon": "magnifying-glass-chart",
         "recommend": true,
         "desc": {
           "/": "Integrate <a href='https://analytics.google.com/' target='_blank'>Google Analytics</a> into VuePress.",
@@ -33,7 +33,7 @@
       },
       {
         "name": "umami-analytics",
-        "icon": "state",
+        "icon": "magnifying-glass-chart",
         "recommend": true,
         "tag": "latest",
         "desc": {
@@ -53,7 +53,8 @@
     "items": [
       {
         "name": "seo2",
-        "icon": "strong",
+        "icon": "wrench",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Auto-generating OGP and JSON-LD tags to enhance SEO",
@@ -68,6 +69,7 @@
       {
         "name": "sitemap2",
         "icon": "sitemap",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Sitemap generator",
@@ -93,7 +95,8 @@
       },
       {
         "name": "redirect",
-        "icon": "navigate",
+        "icon": "fas fa-eject fa-rotate-90",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Performing automatically redirects from old links to new ones",
@@ -108,7 +111,7 @@
 
       {
         "name": "open-graph",
-        "icon": "strong",
+        "icon": "wrench",
         "tag": "latest",
         "desc": {
           "/": "Generating open graph meta tags to improve SEO.",
@@ -124,7 +127,8 @@
     "items": [
       {
         "name": "pwa2",
-        "icon": "app",
+        "icon": "mobile-screen",
+        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "An enhanced PWA plugin supporting manifest generation and install prompt",
@@ -138,7 +142,7 @@
       },
       {
         "name": "@vuepress/pwa",
-        "icon": "app",
+        "icon": "mobile-screen",
         "desc": {
           "/": "Make your VuePress site a <a href='https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps' target='_blank'>Progressive Web Application</a> (PWA).",
           "/zh/": "使你的 VuePress 网站成为 <a href='https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps' target='_blank'>Progressive Web Application</a> (PWA)"
@@ -151,7 +155,7 @@
       },
       {
         "name": "@vuepress/pwa-popup",
-        "icon": "app",
+        "icon": "mobile-screen",
         "desc": {
           "/": "Provide a popup component for users to activate the new PWA service worker manually.",
           "/zh/": "提供一个弹窗组件，允许用户手动刷新 PWA Service Worker 。"
@@ -172,7 +176,7 @@
     "items": [
       {
         "name": "@vuepress-plume/netlify-functions",
-        "icon": "launch",
+        "icon": "rocket",
         "tag": "latest",
         "desc": {
           "/": "Use netlify functions for serverless",
