@@ -7,10 +7,6 @@ heroImage: /logo.png
 heroText: VuePress Marketplace
 tagline: Find the correct VuePress2 plugins and themes here
 actions:
-  - text: Docs
-    link: https://vuejs.press/
-    type: primary
-
   - text: Plugins
     link: /plugins/
     type: primary
@@ -18,6 +14,9 @@ actions:
   - text: Themes
     link: /Themes/
     type: primary
+
+  - text: Docs
+    link: https://vuejs.press/
 ---
 
 ## Upgrading to latest VuePress2
