@@ -19,17 +19,6 @@
           "/": "plugin-blog2.vuejs.press",
           "/zh/": "plugin-blog2.vuejs.press/zh/"
         }
-      },
-      {
-        "name": "posts",
-        "icon": "edit",
-        "tag": "latest",
-        "desc": {
-          "/": "Blog plugin which generate posts information",
-          "/zh/": "生成博客文章信息的插件"
-        },
-        "source": "azat-io/azat-io/tree/main/plugins/posts",
-        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/posts"
       }
     ]
   },

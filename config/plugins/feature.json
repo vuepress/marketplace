@@ -207,8 +207,8 @@
           "/": "Generating clean urls without html extension",
           "/zh/": "生成没有 html 扩展名的干净 url"
         },
-        "source": "azat-io/azat-io/tree/main/plugins/remove-html-extension",
-        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/remove-html-extension"
+        "source": "azat-io/vuepress-plugin-remove-html-extension",
+        "url": "https://github.com/azat-io/vuepress-plugin-remove-html-extension"
       },
       {
         "name": "@condorhero/export-pdf-v2",
