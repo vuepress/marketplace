@@ -40,8 +40,8 @@
           "/": "Integrate Umami analytics",
           "/zh/": "集成 Umami 分析"
         },
-        "source": "azat-io/azat-io/tree/main/plugins/umami-analytics",
-        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/umami-analytics"
+        "source": "azat-io/vuepress-plugin-umami-analytics",
+        "url": "https://github.com/azat-io/vuepress-plugin-umami-analytics"
       }
     ]
   },
@@ -117,8 +117,8 @@
           "/": "Generating open graph meta tags to improve SEO.",
           "/zh/": "生成 Open Graph Meta 标签以改进 SEO。"
         },
-        "source": "azat-io/azat-io/tree/main/plugins/open-graph",
-        "url": "https://github.com/azat-io/azat-io/tree/main/plugins/open-graph"
+        "source": "azat-io/vuepress-plugin-open-graph",
+        "url": "https://github.com/azat-io/vuepress-plugin-open-graph"
       }
     ]
   },
