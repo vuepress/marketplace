@@ -37,7 +37,7 @@ icon: signs-post
 只要你同意以下规则，你就可以申请 `vuejs.press` 子域：
 
 1. 你的作品应该是 VuePress 2 的插件或主题，或者与 VuePress 2 相关的工具。
-1. 你的作品应该是**开源的**并使用 MIT 或 Apache-2.0 许可成。
+1. 你的作品应该是**开源的**并使用 MIT 或 Apache-2.0 许可证。
 1. 你的工作应该可以在**最新的 VuePress 2 版本**上工作，除非最新的 VuePress 2 版本**发布时间不超过 30 天**。
 1. 你的子域只允许包含文档内容。 **不允许有其他内容**，包括任何**政治、宗教或其他有争议的内容**。
 
@@ -55,14 +55,14 @@ icon: signs-post
 
 ::: info 子域名
 
-子域不可自定义，它应该基于你的插件/主题的名称，通过删除` @``vuepress- `并将`/`替换为`-`来生成，例如：
+子域不可自定义，它应该基于你的插件/主题的名称，通过删除 `@` `vuepress-` 并将 `/` 替换为 `-` 来生成，例如：
 
 - `@org/vuepress-plugin-abc` 将是 `org-plugin-abc`
 - `vuepress-theme-abc` 将是 `theme-abc`
 
 ::::
 
-::: 提示文档搜索
+::: tip 文档搜索
 
 如果你需要 Algolia Docsearch，你应该修改`config/crawler.config`来添加你的主题插件。
 
