@@ -62,8 +62,8 @@
         "tag": "latest",
         "recommend": true,
         "desc": {
-          "/": "Comment plugin supporting Giscus, Twikoo and Waline",
-          "/zh/": "支持 Giscus, Twikoo 和 Waline 的评论插件"
+          "/": "Comment plugin supporting Giscus, Twikoo, Waline and Artalk",
+          "/zh/": "支持 Giscus, Twikoo, Waline 和 Artalk 的评论插件"
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/comment2/",
         "url": {
