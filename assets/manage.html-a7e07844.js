@@ -1,0 +1,1 @@
+import{c as r}from"./manage-d2c0c127.js";import{e as t,r as s,o as e,c as a,F as c,f as l,g as m,n as _,h as p,u,_ as f}from"./app-0040af1b.js";const i=t({__name:"manage.html",setup(g){return(P,d)=>{const n=s("ProjectPanel");return e(),a("div",null,[(e(!0),a(c,null,l(u(r),o=>(e(),m(n,_(p(o)),null,16))),256))])}}}),k=f(i,[["__file","manage.html.vue"]]);export{k as default};
