@@ -27,7 +27,7 @@ const props = withDefaults(
     type: "plugin",
     tag: "next",
     recommend: false,
-  }
+  },
 );
 
 const locale = useLocaleConfig({
@@ -42,7 +42,7 @@ const getUrl = (url: string): string =>
 const packageName = computed(
   () =>
     props.packageName ||
-    normalizePackageName(props.name, "vuepress", props.type)
+    normalizePackageName(props.name, "vuepress", props.type),
 );
 
 const projectTitle = computed(() => {
@@ -137,7 +137,8 @@ const open = () => {
 
   cursor: pointer;
 
-  transition: box-shadow var(--color-transition),
+  transition:
+    box-shadow var(--color-transition),
     box-shadow var(--transform-transition);
 
   @media (max-width: hope-config.$pad) {
@@ -209,6 +210,7 @@ const open = () => {
     color: var(--text-color-light);
     font-weight: bold;
     font-size: 1.3rem;
+    font-weight: auto;
 
     @media (max-width: hope-config.$pad) {
       font-size: 1.2rem;
