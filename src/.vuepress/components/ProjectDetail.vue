@@ -154,6 +154,7 @@ const open = () => {
     height: 1.1em;
     font-size: 1.1em;
     font-weight: normal;
+    vertical-align: text-bottom;
 
     .svg-inline--fa {
       vertical-align: 0;
@@ -210,7 +211,6 @@ const open = () => {
     color: var(--text-color-light);
     font-weight: bold;
     font-size: 1.3rem;
-    font-weight: auto;
 
     @media (max-width: hope-config.$pad) {
       font-size: 1.2rem;

@@ -29,6 +29,17 @@
       },
       {
         "type": "theme",
+        "name": "reco",
+        "icon": "https://vuepress-theme-reco.recoluan.com/logo.png",
+        "desc": {
+          "/": "🔥 The 2.x of vuepress-theme-reco",
+          "/zh/": "🔥 vuepress-theme-reco 的 2.x 版本"
+        },
+        "source": "https://github.com/vuepress-reco/vuepress-theme-reco",
+        "url": "https://vuepress-theme-reco.recoluan.com/"
+      },
+      {
+        "type": "theme",
         "name": "dog",
         "tag": "latest",
         "desc": {
@@ -48,17 +59,6 @@
         },
         "source": "pengzhanbo/vuepress-theme-plume",
         "url": "https://pengzhanbo.cn/note/vuepress-theme-plume/"
-      },
-      {
-        "type": "theme",
-        "name": "knzn",
-        "tag": "latest",
-        "desc": {
-          "/": "A VuePress2 blog theme",
-          "/zh/": "一个 VuePress2 博客主题。"
-        },
-        "source": "zhb333/vuepress-theme-knzn",
-        "url": "https://zhb333.github.io/vuepress-theme-knzn/dbe1806c869181db9c55afecd31d39b9/"
       }
     ]
   }

@@ -31,8 +31,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/attrs.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/attrs.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/stylize/attrs.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/attrs.html"
         }
       },
       {
@@ -61,8 +61,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/container.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/container.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/stylize/container.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/container.html"
         }
       },
       {
@@ -77,8 +77,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/tabs.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/tabs.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/content/tabs.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/tabs.html"
         }
       },
       {
@@ -93,8 +93,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/code-tabs.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code-tabs.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/code/code-tabs.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/code-tabs.html"
         }
       },
       {
@@ -109,8 +109,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/footnote.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/footnote.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/content/footnote.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/footnote.html"
         }
       },
       {
@@ -125,8 +125,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/tasklist.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/tasklist.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/grammar/tasklist.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/tasklist.html"
         }
       },
       {
@@ -141,8 +141,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/image.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/image.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/grammar/image.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/image.html"
         }
       },
       {
@@ -157,8 +157,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/include.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/include.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/content/include.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/include.html"
         }
       },
       {
@@ -173,8 +173,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/tex.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/tex.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/grammar/tex.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/tex.html"
         }
       },
       {
@@ -203,8 +203,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/align.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/align.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/stylize/align.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/align.html"
         }
       },
       {
@@ -218,8 +218,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/sup-sub.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/sup-sub.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/grammar/sup-sub.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/sup-sub.html"
         }
       },
       {
@@ -233,8 +233,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/mark.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/mark.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/stylize/mark.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/mark.html"
         }
       },
       {
@@ -248,8 +248,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/stylize.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/stylize/stylize.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/stylize.html"
         }
       },
       {
@@ -308,8 +308,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/echarts.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/echarts.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/chart/echarts.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/echarts.html"
         }
       },
       {
@@ -324,8 +324,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/mermaid.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/mermaid.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/chart/mermaid.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/mermaid.html"
         }
       },
       {
@@ -340,8 +340,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/vue-playground.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/vue-playground.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/code/vue-playground.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/vue-playground.html"
         }
       },
       {
@@ -356,8 +356,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/presentation/",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/presentation/"
+          "/": "plugin-md-enhance.vuejs.press/guide/content/revealjs/",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/"
         }
       },
       {
@@ -385,8 +385,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/chart.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/chart.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/chart/chartjs.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/chartjs.html"
         }
       },
       {
@@ -400,8 +400,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/flowchart.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/flowchart.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/chart/flowchart.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/flowchart.html"
         }
       },
       {
@@ -415,8 +415,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/demo/",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/demo/"
+          "/": "plugin-md-enhance.vuejs.press/guide/dode/demo/",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/demo/"
         }
       },
       {
@@ -430,8 +430,8 @@
         },
         "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/playground.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/playground.html"
+          "/": "plugin-md-enhance.vuejs.press/guide/code/playground.html",
+          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/playground.html"
         }
       },
       {

@@ -200,6 +200,34 @@
         }
       },
       {
+        "name": "append-date",
+        "icon": "time",
+        "tag": "latest",
+        "desc": {
+          "/": "Appending date to frontmatter based on git info",
+          "/zh/": "基于 Git 信息追加时间到 frontmatter"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/append-date/",
+        "url": {
+          "/": "plugin-append-date.vuejs.press",
+          "/zh/": "plugin-append-date.vuejs.press/zh/"
+        }
+      },
+      {
+        "name": "rtl",
+        "icon": "frame",
+        "tag": "arrow-right",
+        "desc": {
+          "/": "RTL layout support",
+          "/zh/": "RTL 布局支持"
+        },
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/rtl/",
+        "url": {
+          "/": "plugin-rtl.vuejs.press",
+          "/zh/": "plugin-rtl.vuejs.press/zh/"
+        }
+      },
+      {
         "name": "remove-html-extension",
         "icon": "eraser",
         "tag": "latest",

@@ -34,19 +34,18 @@
       {
         "type": "theme",
         "name": "reco",
-        "icon": "http://v2.vuepress-reco.recoluan.com/logo.png",
+        "icon": "https://vuepress-theme-reco.recoluan.com/logo.png",
         "desc": {
           "/": "🔥 The 2.x of vuepress-theme-reco",
           "/zh/": "🔥 vuepress-theme-reco 的 2.x 版本"
         },
         "source": "https://github.com/vuepress-reco/vuepress-theme-reco",
-        "url": "http://v2.vuepress-reco.recoluan.com/"
+        "url": "https://vuepress-theme-reco.recoluan.com/"
       },
       {
         "type": "theme",
         "name": "mix",
         "tag": "latest",
-        "icon": "http://vuepress-theme-mix.vercel.app/images/hero.png",
         "desc": {
           "/": "A VuePress 2 theme with a mix of features",
           "/zh/": "一个 VuePress 2 主题，集合了多种功能"
