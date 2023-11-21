@@ -23,39 +23,39 @@ export default defineUserConfig({
   alias: {
     "@blog-plugin-config": path.resolve(
       __dirname,
-      "../../config/plugins/blog.json"
+      "../../config/plugins/blog.json",
     ),
     "@developer-plugin-config": path.resolve(
       __dirname,
-      "../../config/plugins/developer.json"
+      "../../config/plugins/developer.json",
     ),
     "@feature-plugin-config": path.resolve(
       __dirname,
-      "../../config/plugins/feature.json"
+      "../../config/plugins/feature.json",
     ),
     "@manage-plugin-config": path.resolve(
       __dirname,
-      "../../config/plugins/manage.json"
+      "../../config/plugins/manage.json",
     ),
     "@markdown-plugin-config": path.resolve(
       __dirname,
-      "../../config/plugins/markdown.json"
+      "../../config/plugins/markdown.json",
     ),
     "@search-plugin-config": path.resolve(
       __dirname,
-      "../../config/plugins/search.json"
+      "../../config/plugins/search.json",
     ),
     "@blog-theme-config": path.resolve(
       __dirname,
-      "../../config/themes/blog.json"
+      "../../config/themes/blog.json",
     ),
     "@docs-theme-config": path.resolve(
       __dirname,
-      "../../config/themes/docs.json"
+      "../../config/themes/docs.json",
     ),
     "@theme-hope/components/HomePage": path.resolve(
       __dirname,
-      "./components/HomePage.vue"
+      "./components/HomePage.vue",
     ),
   },
 

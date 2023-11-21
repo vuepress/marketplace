@@ -72,5 +72,5 @@ export default hopeTheme(
       photoSwipe: false,
     },
   },
-  { custom: true }
+  { custom: true },
 );

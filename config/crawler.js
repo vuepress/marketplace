@@ -218,7 +218,7 @@ export default {
         ([name, { sitemap }]) =>
           `${getUrl(name)}/${
             typeof sitemap === "string" ? sitemap : "sitemap.xml"
-          }}`
+          }}`,
       ),
   ],
   ignoreCanonicalTo: false,
@@ -244,7 +244,7 @@ export default {
               : recordExtractorMap[recordExtractor] ||
                 recordExtractorMap["vuepress/default"],
         };
-      }
+      },
     ),
   ],
   initialIndexSettings: {
@@ -254,8 +254,8 @@ export default {
         ([name, { initialIndexSettings = {} }]) => [
           name,
           { ...commonInitialIndexSettings, ...initialIndexSettings },
-        ]
-      )
+        ],
+      ),
     ),
   },
 };

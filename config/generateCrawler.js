@@ -15,13 +15,13 @@ let content = `new Crawler(${JSON.stringify(
 
     return value;
   },
-  2
+  2,
 )})`;
 
 functionStore.forEach((func) => {
   content = content.replaceAll(
     JSON.stringify(func.toString()),
-    func.toString()
+    func.toString(),
   );
 });
 
