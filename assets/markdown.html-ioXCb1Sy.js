@@ -1,1 +1,0 @@
-import{p as a}from"./markdown-htHjsU89.js";import{e as t,r as s,o as e,c as n,F as l,f as c,g as m,n as _,h as p,u,_ as i}from"./app-TbDxxmbP.js";const f=t({__name:"markdown.html",setup(d){return(k,P)=>{const o=s("ProjectPanel");return e(),n("div",null,[(e(!0),n(l,null,c(u(a),r=>(e(),m(o,_(p(r)),null,16))),256))])}}}),v=i(f,[["__file","markdown.html.vue"]]);export{v as default};
