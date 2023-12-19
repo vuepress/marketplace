@@ -1,1 +1,0 @@
-import{c as t}from"./docs-30ENbvrx.js";import{e as s,r as a,o as e,c as o,F as c,f as l,g as _,n as m,h as p,u,_ as f}from"./app-_WJaoxXw.js";const i=s({__name:"docs.html",setup(d){return(P,h)=>{const n=a("ProjectPanel");return e(),o("div",null,[(e(!0),o(c,null,l(u(t),r=>(e(),_(n,m(p(r)),null,16))),256))])}}}),k=f(i,[["__file","docs.html.vue"]]);export{k as default};
