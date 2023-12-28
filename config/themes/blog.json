@@ -51,7 +51,7 @@
       },
       {
         "type": "theme",
-        "name": "@vuepress-plume/plume",
+        "name": "plume",
         "tag": "latest",
         "desc": {
           "/": "A simple VuePress theme",
