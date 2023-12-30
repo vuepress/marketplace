@@ -9,13 +9,16 @@ tagline: Find the correct VuePress2 plugins and themes here
 actions:
   - text: Plugins
     link: /plugins/
+    icon: puzzle-piece
     type: primary
 
   - text: Themes
     link: /Themes/
+    icon: palette
     type: primary
 
   - text: Docs
+    icon: book
     link: https://vuejs.press/
 ---
 

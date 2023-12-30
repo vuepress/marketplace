@@ -9,41 +9,28 @@
     "clean-dev": "vuepress dev src --clean-cache",
     "dev": "vuepress dev src",
     "prepare": "husky install",
-    "lint:md": "markdownlint **/*.md"
+    "lint": "prettier --check --write .",
+    "lint:md": "markdownlint-cli2 '**/*.md'"
   },
   "license": "CC0",
-  "packageManager": "pnpm@8.10.5",
+  "packageManager": "pnpm@8.13.1",
   "dependencies": {
     "@vuepress/client": "2.0.0-rc.0",
     "@vuepress/shared": "2.0.0-rc.0",
     "@vuepress/utils": "2.0.0-rc.0",
-    "vue": "3.3.12",
+    "vue": "3.4.1",
     "vuepress": "2.0.0-rc.0",
-    "vuepress-shared": "2.0.0-rc.5",
-    "vuepress-theme-hope": "2.0.0-rc.5"
+    "vuepress-shared": "2.0.0-rc.10",
+    "vuepress-theme-hope": "2.0.0-rc.10"
   },
   "devDependencies": {
     "husky": "8.0.3",
-    "markdownlint-cli": "0.38.0",
+    "markdownlint-cli2": "0.11.0",
     "nano-staged": "0.8.0",
     "prettier": "3.1.1"
   },
   "nano-staged": {
-    "*.vue": [
-      "prettier --write"
-    ],
-    "*.{js,ts}": [
-      "prettier --write"
-    ],
-    "*.md": [
-      "markdownlint",
-      "prettier --write"
-    ],
-    "*.{json,yml}": [
-      "prettier --write"
-    ],
-    "*.scss": [
-      "prettier --write"
-    ]
+    "**/*": "prettier --write --ignore-unknown",
+    "*.md": "markdownlint-cli2"
   }
 }

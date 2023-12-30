@@ -9,13 +9,16 @@ tagline: 在此找到正确的 VuePress2 插件与主题
 actions:
   - text: 插件
     link: /zh/plugins/
+    icon: puzzle-piece
     type: primary
 
   - text: 主题
     link: /zh/Themes/
+    icon: palette
     type: primary
 
   - text: 文档
+    icon: book
     link: https://vuejs.press/zh/
 ---
 
