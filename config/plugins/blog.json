@@ -29,7 +29,7 @@
     },
     "items": [
       {
-        "name": "feed2",
+        "name": "@vuepress/feed",
         "icon": "rss",
         "tag": "latest",
         "recommend": true,
@@ -37,10 +37,10 @@
           "/": "Feed plugin supporting atom, json and rss syntax feeds",
           "/zh/": "支持 atom、json 和 rss 格式的订阅流插件"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/feed2/",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-feed/",
         "url": {
-          "/": "plugin-feed2.vuejs.press",
-          "/zh/": "plugin-feed2.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/plugins/feed/",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/feed/"
         }
       }
     ]

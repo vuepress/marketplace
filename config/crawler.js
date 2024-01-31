@@ -36,10 +36,6 @@ const crawlerConfig = {
     sitemap: true,
     recordExtractor: "hope",
   },
-  "plugin-feed2": {
-    sitemap: true,
-    recordExtractor: "hope",
-  },
   "plugin-lightgallery": {
     sitemap: true,
     recordExtractor: "hope",
@@ -69,14 +65,6 @@ const crawlerConfig = {
     recordExtractor: "hope",
   },
   "plugin-sass-palette": {
-    sitemap: true,
-    recordExtractor: "hope",
-  },
-  "plugin-seo2": {
-    sitemap: true,
-    recordExtractor: "hope",
-  },
-  "plugin-sitemap2": {
     sitemap: true,
     recordExtractor: "hope",
   },

@@ -8,27 +8,25 @@
     "build": "vuepress build src",
     "clean-dev": "vuepress dev src --clean-cache",
     "dev": "vuepress dev src",
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint": "prettier --check --write .",
     "lint:md": "markdownlint-cli2 '**/*.md'"
   },
   "license": "CC0",
-  "packageManager": "pnpm@8.13.1",
   "dependencies": {
-    "@vuepress/client": "2.0.0-rc.0",
-    "@vuepress/shared": "2.0.0-rc.0",
-    "@vuepress/utils": "2.0.0-rc.0",
-    "vue": "3.4.1",
-    "vuepress": "2.0.0-rc.0",
-    "vuepress-shared": "2.0.0-rc.10",
-    "vuepress-theme-hope": "2.0.0-rc.10"
+    "@vuepress/bundler-vite": "2.0.0-rc.2",
+    "vue": "3.4.15",
+    "vuepress": "2.0.0-rc.2",
+    "vuepress-shared": "2.0.0-rc.16",
+    "vuepress-theme-hope": "2.0.0-rc.16"
   },
   "devDependencies": {
-    "husky": "8.0.3",
-    "markdownlint-cli2": "0.11.0",
+    "husky": "9.0.7",
+    "markdownlint-cli2": "0.12.1",
     "nano-staged": "0.8.0",
-    "prettier": "3.1.1"
+    "prettier": "3.2.4"
   },
+  "packageManager": "pnpm@8.15.1",
   "nano-staged": {
     "**/*": "prettier --write --ignore-unknown",
     "*.md": "markdownlint-cli2"

@@ -13,10 +13,10 @@
           "/": "Integrate <a href='https://analytics.google.com/' target='_blank'>Google Analytics</a> into VuePress.",
           "/zh/": "将 <a href='https://analytics.google.com/' target='_blank'>Google Analytics</a> 集成到 VuePress"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-google-analytics",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-google-analytics/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/google-analytics.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html"
+          "/": "https://ecosystem.vuejs.press/plugins/google-analytics.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/google-analytics.html"
         }
       },
       {
@@ -52,7 +52,7 @@
     },
     "items": [
       {
-        "name": "seo2",
+        "name": "@vuepress/seo",
         "icon": "wrench",
         "tag": "latest",
         "recommend": true,
@@ -60,14 +60,14 @@
           "/": "Auto-generating OGP and JSON-LD tags to enhance SEO",
           "/zh/": "自动生成 OGP 和 JSON-LD 标签以增强 SEO"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/seo2/",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-seo/",
         "url": {
-          "/": "plugin-seo2.vuejs.press",
-          "/zh/": "plugin-seo2.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/plugins/seo/",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/seo/"
         }
       },
       {
-        "name": "sitemap2",
+        "name": "@vuepress/sitemap",
         "icon": "sitemap",
         "tag": "latest",
         "recommend": true,
@@ -75,10 +75,10 @@
           "/": "Sitemap generator",
           "/zh/": "Sitemap 生成器"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/sitemap2/",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-sitemap/",
         "url": {
-          "/": "plugin-sitemap2.vuejs.press",
-          "/zh/": "plugin-sitemap2.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/plugins/sitemap/",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/sitemap/"
         }
       },
       {
@@ -147,10 +147,10 @@
           "/": "Make your VuePress site a <a href='https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps' target='_blank'>Progressive Web Application</a> (PWA).",
           "/zh/": "使你的 VuePress 网站成为 <a href='https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps' target='_blank'>Progressive Web Application</a> (PWA)"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-pwa",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-pwa/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/pwa.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/pwa.html"
+          "/": "https://ecosystem.vuejs.press/plugins/pwa.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/pwa.html"
         }
       },
       {
@@ -160,10 +160,10 @@
           "/": "Provide a popup component for users to activate the new PWA service worker manually.",
           "/zh/": "提供一个弹窗组件，允许用户手动刷新 PWA Service Worker 。"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-pwa-popup",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-pwa-popup/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/pwa-popup.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/pwa-popup.html"
+          "/": "https://ecosystem.vuejs.press/plugins/pwa-popup.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/pwa-popup.html"
         }
       }
     ]

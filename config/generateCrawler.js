@@ -1,5 +1,4 @@
-// import fs from "fs";
-import { fs } from "@vuepress/utils";
+import { fs } from "vuepress/utils";
 import crawler, { recordExtractorMap } from "./crawler.js";
 
 const functionStore = [];

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useRouteLocale } from "@vuepress/client";
-import { isPlainObject } from "@vuepress/shared";
 import { computed } from "vue";
+import { useRouteLocale } from "vuepress/client";
+import { isPlainObject } from "vuepress/shared";
 
 import ProjectDetail from "./ProjectDetail.vue";
 

@@ -82,10 +82,10 @@
           "/": "Update route hash when scrolling pages",
           "/zh/": "滚动页面时更新路由 Hash"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-active-header-links",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-active-header-links/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/active-header-links.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/active-header-links.html"
+          "/": "https://ecosystem.vuejs.press/plugins/active-header-links.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/active-header-links.html"
         }
       },
       {
@@ -96,10 +96,10 @@
           "/": "Add a icon to the external link in your markdown content",
           "/zh/": "为你的 Markdown 内容中的外部链接添加图标"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-external-link-icon",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-external-link-icon/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/external-link-icon.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/external-link-icon.html"
+          "/": "https://ecosystem.vuejs.press/plugins/external-link-icon.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/external-link-icon.html"
         }
       },
       {
@@ -110,10 +110,10 @@
           "/": "Collect git information of your pages, including the created and updated time, the contributors, etc.",
           "/zh/": "收集页面的 Git 信息，包括创建和更新时间，贡献者等"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-git",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-git/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/git.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/git.html"
+          "/": "https://ecosystem.vuejs.press/plugins/git.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/git.html"
         }
       },
       {
@@ -124,10 +124,10 @@
           "/": "Provide client data for your theme, with VuePress I18n support.",
           "/zh/": "为你的主题提供客户端数据，支持 VuePress 多语言。"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-theme-data",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-theme-data/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/theme-data.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/theme-data.html"
+          "/": "https://ecosystem.vuejs.press/plugins/theme-data.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/theme-data.html"
         }
       },
       {
@@ -138,10 +138,10 @@
           "/": "Provide a table-of-contents (TOC) component.",
           "/zh/": "提供一个目录组件。"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-toc",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-toc/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/toc.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/toc.html"
+          "/": "https://ecosystem.vuejs.press/plugins/toc.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/toc.html"
         }
       },
       {
@@ -171,10 +171,10 @@
           "/": " Provide palette support for your theme.",
           "/zh/": "为你的主题提供调色板支持。"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-palette",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-palette/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/palette.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/palette.html"
+          "/": "https://ecosystem.vuejs.press/plugins/palette.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/palette.html"
         }
       },
       {

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useRouteLocale } from "@vuepress/client";
-import { isLinkHttp, isPlainObject } from "@vuepress/shared";
 import { computed } from "vue";
+import { useRouteLocale } from "vuepress/client";
+import { isLinkHttp, isPlainObject } from "vuepress/shared";
 import { GitHubIcon, useLocaleConfig } from "vuepress-shared/client";
 
 import Icon from "@theme-hope/components/HopeIcon";

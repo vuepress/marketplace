@@ -51,8 +51,6 @@ plugin-copy-code2	600	IN	CNAME	vuepress-plugin-copy-code2.netlify.app.
 plugin-copy-code2-demo	600	IN	CNAME	vuepress-plugin-copy-code2-demo.netlify.app.
 plugin-copyright2	600	IN	CNAME	vuepress-plugin-copyright2.netlify.app.
 plugin-copyright2-demo	600	IN	CNAME	vuepress-plugin-copyright2-demo.netlify.app.
-plugin-feed2	600	IN	CNAME	vuepress-plugin-feed2.netlify.app.
-plugin-feed2-demo	600	IN	CNAME	vuepress-plugin-feed2-demo.netlify.app.
 plugin-lightgallery	600	IN	CNAME	vuepress-plugin-lightgallery.netlify.app.
 plugin-lightgallery-demo	600	IN	CNAME	vuepress-plugin-lightgallery-demo.netlify.app.
 plugin-md-enhance	600	IN	CNAME	vuepress-plugin-md-enhance.netlify.app.
@@ -70,10 +68,6 @@ plugin-sass-palette	600	IN	CNAME	vuepress-plugin-sass-palette.netlify.app.
 plugin-sass-palette-demo	600	IN	CNAME	vuepress-plugin-sass-palette-demo.netlify.app.
 plugin-search-pro	600	IN	CNAME	vuepress-plugin-search-pro.netlify.app.
 plugin-search-pro-demo	600	IN	CNAME	vuepress-plugin-search-pro-demo.netlify.app.
-plugin-seo2	600	IN	CNAME	vuepress-plugin-seo2.netlify.app.
-plugin-seo2-demo	600	IN	CNAME	vuepress-plugin-seo2-demo.netlify.app.
-plugin-sitemap2	600	IN	CNAME	vuepress-plugin-sitemap2.netlify.app.
-plugin-sitemap2-demo	600	IN	CNAME	vuepress-plugin-sitemap2-demo.netlify.app.
 shared	600	IN	CNAME	vuepress-shared.netlify.app.
 theme-hope	600	IN	CNAME	vuepress-theme-hope.netlify.app.
 theme-hope-blog-demo	600	IN	CNAME	vuepress-theme-hope-blog-demo.netlify.app.

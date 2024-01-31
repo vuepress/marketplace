@@ -13,10 +13,10 @@
           "/": "Register markdown custom containers in your VuePress site",
           "/zh/": "在你的 VuePress 站点中注册 markdown 自定义容器"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-container",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-container/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/container.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/container.html"
+          "/": "https://ecosystem.vuejs.press/plugins/container.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/container.html"
         }
       },
       {
@@ -43,10 +43,10 @@
           "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Shiki</a>",
           "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-shiki",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-shiki/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/shiki.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/shiki.html"
+          "/": "https://ecosystem.vuejs.press/plugins/shiki.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/shiki.html"
         }
       },
       {
@@ -282,10 +282,10 @@
           "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
           "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-prismjs",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-prismjs/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/prismjs.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/prismjs.html"
+          "/": "https://ecosystem.vuejs.press/plugins/prismjs.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/prismjs.html"
         }
       }
     ]
@@ -368,10 +368,10 @@
           "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Shiki</a>",
           "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-shiki",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-shiki/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/shiki.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/shiki.html"
+          "/": "https://ecosystem.vuejs.press/plugins/shiki.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/shiki.html"
         }
       },
       {
@@ -441,10 +441,10 @@
           "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
           "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-prismjs",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-prismjs/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/prismjs.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/prismjs.html"
+          "/": "https://ecosystem.vuejs.press/plugins/prismjs.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/prismjs.html"
         }
       }
     ]

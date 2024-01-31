@@ -41,10 +41,10 @@
           "/": "Integrate <a href='https://github.com/francoischalifour/medium-zoom#readme' target='_blank'>medium-zoom</a> into VuePress.",
           "/zh/": "将 <a href='https://github.com/francoischalifour/medium-zoom#readme' target='_blank'>medium-zoom</a> 集成到VuePress。"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-medium-zoom",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-medium-zoom/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/medium-zoom.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/medium-zoom.html"
+          "/": "https://ecosystem.vuejs.press/plugins/medium-zoom.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/medium-zoom.html"
         }
       }
     ]
@@ -146,10 +146,10 @@
           "/": "Back to top button",
           "/zh/": "返回顶部按钮"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-back-to-top",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-back-to-top/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/back-to-top.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/back-to-top.html"
+          "/": "https://ecosystem.vuejs.press/plugins/back-to-top.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/back-to-top.html"
         }
       },
       {
@@ -193,10 +193,10 @@
           "/": "Register Vue components from component files or directory automatically.",
           "/zh/": "自动从组件文件或目录中注册 Vue 组件。"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-register-components",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-register-components/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/register-components.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/register-components.html"
+          "/": "https://ecosystem.vuejs.press/plugins/register-components.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/register-components.html"
         }
       },
       {

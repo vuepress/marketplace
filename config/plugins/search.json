@@ -13,10 +13,10 @@
           "/": "Integrate <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> into VuePress",
           "/zh/": "将 <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> 集成到 VuePress"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-docsearch",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-docsearch/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/docsearch.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/docsearch.html"
+          "/": "https://ecosystem.vuejs.press/plugins/docsearch.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/docsearch.html"
         }
       }
     ]
@@ -49,10 +49,10 @@
           "/": "Provide local search to your documentation site.",
           "/zh/": "为你的文档网站提供本地搜索"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/plugin-search",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-search/",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/plugin/search.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/plugin/search.html"
+          "/": "https://ecosystem.vuejs.press/plugins/search.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/search.html"
         }
       },
       {

@@ -1,4 +1,4 @@
-import { defineClientConfig } from "@vuepress/client";
+import { defineClientConfig } from "vuepress/client";
 import ProjectPanel from "./components/ProjectPanel.vue";
 
 export default defineClientConfig({

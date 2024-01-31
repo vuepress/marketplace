@@ -1,6 +1,7 @@
-import { getDirname, path } from "@vuepress/utils";
 import { defineUserConfig } from "vuepress";
+import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
+import viteBundler from "@vuepress/bundler-vite";
 
 const __dirname = getDirname(import.meta.url);
 
@@ -58,6 +59,8 @@ export default defineUserConfig({
       "./components/HomePage.vue",
     ),
   },
+
+  bundler: viteBundler(),
 
   theme,
 });

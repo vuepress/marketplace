@@ -10,10 +10,10 @@
           "/": "VuePress2 default theme",
           "/zh/": "VuePress2 默认主题"
         },
-        "source": "vuepress/vuepress-next/tree/main/ecosystem/theme-default",
+        "source": "vuepress/ecosystem/tree/main/themes/theme-default",
         "url": {
-          "/": "https://v2.vuepress.vuejs.org/reference/default-theme/config.html",
-          "/zh/": "https://v2.vuepress.vuejs.org/zh/reference/default-theme/config.html"
+          "/": "https://ecosystem.vuejs.press/themes/default/config.html",
+          "/zh/": "https://ecosystem.vuejs.press/zh/themes/default/config.html"
         }
       },
       {
