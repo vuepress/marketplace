@@ -54,7 +54,7 @@
       {
         "name": "@vuepress/seo",
         "icon": "wrench",
-        "tag": "latest",
+        "tag": "next",
         "recommend": true,
         "desc": {
           "/": "Auto-generating OGP and JSON-LD tags to enhance SEO",
@@ -69,7 +69,7 @@
       {
         "name": "@vuepress/sitemap",
         "icon": "sitemap",
-        "tag": "latest",
+        "tag": "next",
         "recommend": true,
         "desc": {
           "/": "Sitemap generator",

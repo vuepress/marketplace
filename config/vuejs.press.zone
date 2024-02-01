@@ -47,8 +47,6 @@ plugin-comment2	600	IN	CNAME	vuepress-plugin-comment2.netlify.app.
 plugin-comment2-demo	600	IN	CNAME	vuepress-plugin-comment2-demo.netlify.app.
 plugin-components	600	IN	CNAME	vuepress-plugin-components.netlify.app.
 plugin-components-demo	600	IN	CNAME	vuepress-plugin-components-demo.netlify.app.
-plugin-copy-code2	600	IN	CNAME	vuepress-plugin-copy-code2.netlify.app.
-plugin-copy-code2-demo	600	IN	CNAME	vuepress-plugin-copy-code2-demo.netlify.app.
 plugin-copyright2	600	IN	CNAME	vuepress-plugin-copyright2.netlify.app.
 plugin-copyright2-demo	600	IN	CNAME	vuepress-plugin-copyright2-demo.netlify.app.
 plugin-lightgallery	600	IN	CNAME	vuepress-plugin-lightgallery.netlify.app.

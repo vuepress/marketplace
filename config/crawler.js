@@ -28,10 +28,6 @@ const crawlerConfig = {
     sitemap: true,
     recordExtractor: "hope",
   },
-  "plugin-copy-code2": {
-    sitemap: true,
-    recordExtractor: "hope",
-  },
   "plugin-copyright2": {
     sitemap: true,
     recordExtractor: "hope",

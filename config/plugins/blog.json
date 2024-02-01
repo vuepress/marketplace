@@ -31,7 +31,7 @@
       {
         "name": "@vuepress/feed",
         "icon": "rss",
-        "tag": "latest",
+        "tag": "next",
         "recommend": true,
         "desc": {
           "/": "Feed plugin supporting atom, json and rss syntax feeds",

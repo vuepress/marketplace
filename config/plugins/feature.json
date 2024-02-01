@@ -110,18 +110,18 @@
         }
       },
       {
-        "name": "copy-code2",
+        "name": "@vuepress/copy-code",
         "icon": "copy",
-        "tag": "latest",
+        "tag": "next",
         "recommend": true,
         "desc": {
           "/": "Provide copy button for code blocks.",
           "/zh/": "为代码块提供复制按钮"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/copy-code2/",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-copy-code/",
         "url": {
-          "/": "plugin-copy-code2.vuejs.press",
-          "/zh/": "plugin-copy-code2.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/plugins/copy-code.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/copy-code.html"
         }
       },
       {
