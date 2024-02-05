@@ -6,19 +6,19 @@
     },
     "items": [
       {
-        "name": "vuepress-shared",
-        "tag": "latest",
-        "packageName": "vuepress-shared",
+        "name": "@vuepress/helper",
+        "tag": "next",
+        "packageName": "@vuepress/helper",
         "recommend": true,
         "icon": "toolbox",
         "desc": {
           "/": "Useful VuePress2 util functions for developers",
           "/zh/": "面向开发者的 VuePress2 实用工具函数"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/shared/",
+        "source": "vuepress/ecosystem/tree/main/tools/helper/",
         "url": {
-          "/": "shared.vuejs.press",
-          "/zh/": "shared.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/tools/helper/",
+          "/zh/": "ecosystem.vuejs.press/zh/tools/helper/"
         }
       },
       {
@@ -45,19 +45,19 @@
     },
     "items": [
       {
-        "name": "vuepress-shared",
-        "packageName": "vuepress-shared",
-        "tag": "latest",
+        "name": "@vuepress/helper",
+        "tag": "next",
+        "packageName": "@vuepress/helper",
         "recommend": true,
         "icon": "toolbox",
         "desc": {
           "/": "Useful VuePress2 util functions for developers",
           "/zh/": "面向开发者的 VuePress2 实用工具函数"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/shared/",
+        "source": "vuepress/ecosystem/tree/main/tools/helper/",
         "url": {
-          "/": "shared.vuejs.press",
-          "/zh/": "shared.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/tools/helper/",
+          "/zh/": "ecosystem.vuejs.press/zh/tools/helper/"
         }
       },
       {
@@ -178,17 +178,17 @@
         }
       },
       {
-        "name": "reading-time2",
+        "name": "@vuepress/reading-time",
         "icon": "book-open",
-        "tag": "latest",
+        "tag": "next",
         "desc": {
           "/": "Count words and generate reading time for articles",
           "/zh/": "统计文章字数并生成阅读时间"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/reading-time2/",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-reading-time/",
         "url": {
-          "/": "plugin-reading-time2.vuejs.press",
-          "/zh/": "plugin-reading-time2.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/plugins/reading-time/",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/reading-time/"
         }
       },
       {

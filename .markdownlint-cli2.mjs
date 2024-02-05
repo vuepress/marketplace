@@ -13,7 +13,7 @@ export default {
     },
     MD033: {
       allowed_elements: [
-        "AutoCatalog",
+        "Catalog",
         "ProjectPanel",
         "details",
         "script",

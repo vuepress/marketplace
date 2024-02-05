@@ -14,18 +14,18 @@
   },
   "license": "CC0",
   "dependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.2",
-    "@vuepress/helper": "2.0.0-rc.6",
+    "@vuepress/bundler-vite": "2.0.0-rc.5",
+    "@vuepress/helper": "2.0.0-rc.10",
     "vue": "3.4.15",
-    "vuepress": "2.0.0-rc.2",
-    "vuepress-shared": "2.0.0-rc.18",
-    "vuepress-theme-hope": "2.0.0-rc.18"
+    "vuepress": "2.0.0-rc.5",
+    "vuepress-shared": "2.0.0-rc.21",
+    "vuepress-theme-hope": "2.0.0-rc.21"
   },
   "devDependencies": {
-    "husky": "9.0.7",
+    "husky": "9.0.10",
     "markdownlint-cli2": "0.12.1",
     "nano-staged": "0.8.0",
-    "prettier": "3.2.4"
+    "prettier": "3.2.5"
   },
   "packageManager": "pnpm@8.15.1",
   "nano-staged": {

@@ -94,18 +94,18 @@
         "url": "https://vuepress.qbb.sh/china-search-console/"
       },
       {
-        "name": "redirect",
+        "name": "@vuepress/redirect",
         "icon": "fas fa-eject fa-rotate-90",
-        "tag": "latest",
+        "tag": "next",
         "recommend": true,
         "desc": {
           "/": "Performing automatically redirects from old links to new ones",
           "/zh/": "自动从旧链接重定向到新链接"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/redirect/",
+        "source": "vuepress/ecosystem/tree/main/plugins/plugin-redirect/",
         "url": {
-          "/": "plugin-redirect.vuejs.press",
-          "/zh/": "plugin-redirect.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/plugins/redirect.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/redirect.html"
         }
       },
 
