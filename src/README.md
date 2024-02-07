@@ -13,7 +13,7 @@ actions:
     type: primary
 
   - text: Themes
-    link: /Themes/
+    link: /themes/
     icon: palette
     type: primary
 
