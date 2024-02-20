@@ -14,20 +14,20 @@
   },
   "license": "CC0",
   "dependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.5",
-    "@vuepress/helper": "2.0.0-rc.10",
-    "vue": "3.4.15",
-    "vuepress": "2.0.0-rc.5",
-    "vuepress-shared": "2.0.0-rc.21",
-    "vuepress-theme-hope": "2.0.0-rc.21"
+    "@vuepress/bundler-vite": "2.0.0-rc.8",
+    "@vuepress/helper": "2.0.0-rc.15",
+    "vue": "3.4.19",
+    "vuepress": "2.0.0-rc.8",
+    "vuepress-shared": "2.0.0-rc.25",
+    "vuepress-theme-hope": "2.0.0-rc.25"
   },
   "devDependencies": {
-    "husky": "9.0.10",
+    "husky": "9.0.11",
     "markdownlint-cli2": "0.12.1",
     "nano-staged": "0.8.0",
     "prettier": "3.2.5"
   },
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@8.15.3",
   "nano-staged": {
     "**/*": "prettier --write --ignore-unknown",
     "*.md": "markdownlint-cli2"

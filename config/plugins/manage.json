@@ -126,21 +126,6 @@
     "header": "PWA",
     "items": [
       {
-        "name": "pwa2",
-        "icon": "mobile-screen",
-        "tag": "latest",
-        "recommend": true,
-        "desc": {
-          "/": "An enhanced PWA plugin supporting manifest generation and install prompt",
-          "/zh/": "增强的 PWA 插件，支持 manifest 生成和安装提示"
-        },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/pwa2/",
-        "url": {
-          "/": "plugin-pwa2.vuejs.press",
-          "/zh/": "plugin-pwa2.vuejs.press/zh/"
-        }
-      },
-      {
         "name": "@vuepress/pwa",
         "icon": "mobile-screen",
         "desc": {
@@ -151,19 +136,6 @@
         "url": {
           "/": "https://ecosystem.vuejs.press/plugins/pwa.html",
           "/zh/": "https://ecosystem.vuejs.press/zh/plugins/pwa.html"
-        }
-      },
-      {
-        "name": "@vuepress/pwa-popup",
-        "icon": "mobile-screen",
-        "desc": {
-          "/": "Provide a popup component for users to activate the new PWA service worker manually.",
-          "/zh/": "提供一个弹窗组件，允许用户手动刷新 PWA Service Worker 。"
-        },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-pwa-popup/",
-        "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/pwa-popup.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/pwa-popup.html"
         }
       }
     ]
