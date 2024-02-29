@@ -173,10 +173,10 @@
           "/": "Live2D poster girl",
           "/zh/": "live2d 看板娘插件"
         },
-        "source": "oh-my-live2d/vuepress-plugin-oh-my-live2d",
+        "source": "oh-my-live2d/oh-my-live2d",
         "url": {
-          "/": "vuepress.oml2d.com",
-          "/zh/": "vuepress.oml2d.com/zh/"
+          "/": "oml2d.com/guide/vuepress.html",
+          "/zh/": "oml2d.com/guide/vuepress.html"
         }
       }
     ]
