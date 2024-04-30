@@ -54,11 +54,11 @@
         "name": "plume",
         "tag": "latest",
         "desc": {
-          "/": "A simple VuePress theme",
-          "/zh/": "一个简约的 VuePress 主题。"
+          "/": "A simple and feature-rich VuePress documentation & blog theme",
+          "/zh/": "一个简约的，功能丰富的 VuePress 文档&博客 主题"
         },
         "source": "pengzhanbo/vuepress-theme-plume",
-        "url": "https://pengzhanbo.cn/note/vuepress-theme-plume/"
+        "url": "https://plume.pengzhanbo.cn"
       }
     ]
   }
