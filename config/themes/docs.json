@@ -66,6 +66,17 @@
         },
         "source": "wuwb/vuepress-theme-teadoc",
         "url": "https://github.com/wuwb/vuepress-theme-teadoc"
+      },
+      {
+        "type": "theme",
+        "name": "plume",
+        "tag": "latest",
+        "desc": {
+          "/": "A simple and feature-rich VuePress documentation & blog theme",
+          "/zh/": "一个简约的，功能丰富的 VuePress 文档&博客 主题"
+        },
+        "source": "pengzhanbo/vuepress-theme-plume",
+        "url": "https://plume.pengzhanbo.cn"
       }
     ]
   }
