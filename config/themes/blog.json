@@ -19,6 +19,17 @@
       },
       {
         "type": "theme",
+        "name": "plume",
+        "tag": "latest",
+        "desc": {
+          "/": "A simple and feature-rich VuePress documentation & blog theme",
+          "/zh/": "一个简约的，功能丰富的 VuePress 文档&博客 主题"
+        },
+        "source": "pengzhanbo/vuepress-theme-plume",
+        "url": "https://plume.pengzhanbo.cn"
+      },
+      {
+        "type": "theme",
         "name": "gungnir",
         "desc": {
           "/": "A graceful blog theme for VuePress",
@@ -48,17 +59,6 @@
         },
         "source": "artiely/blog-dog",
         "url": "https://github.com/artiely/blog-dog"
-      },
-      {
-        "type": "theme",
-        "name": "plume",
-        "tag": "latest",
-        "desc": {
-          "/": "A simple and feature-rich VuePress documentation & blog theme",
-          "/zh/": "一个简约的，功能丰富的 VuePress 文档&博客 主题"
-        },
-        "source": "pengzhanbo/vuepress-theme-plume",
-        "url": "https://plume.pengzhanbo.cn"
       }
     ]
   }
