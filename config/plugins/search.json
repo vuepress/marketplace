@@ -13,10 +13,10 @@
           "/": "Integrate <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> into VuePress",
           "/zh/": "将 <a href='https://docsearch.algolia.com/' target='_blank'>Algolia DocSearch</a> 集成到 VuePress"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-docsearch/",
+        "source": "vuepress/ecosystem/tree/main/plugins/search/plugin-docsearch",
         "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/docsearch.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/docsearch.html"
+          "/": "ecosystem.vuejs.press/plugins/search/docsearch.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/search/docsearch.html"
         }
       }
     ]
@@ -49,10 +49,10 @@
           "/": "Provide local search to your documentation site.",
           "/zh/": "为你的文档网站提供本地搜索"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-search/",
+        "source": "vuepress/ecosystem/tree/main/plugins/search/plugin-search",
         "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/search.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/search.html"
+          "/": "ecosystem.vuejs.press/plugins/search/search.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/search/search.html"
         }
       },
       {
@@ -64,7 +64,7 @@
           "/zh/": "全文本地搜索"
         },
         "source": "ota-meshi/vuepress-plugin-full-text-search2",
-        "url": "https://github.com/ota-meshi/vuepress-plugin-full-text-search2"
+        "url": "github.com/ota-meshi/vuepress-plugin-full-text-search2"
       }
     ]
   }

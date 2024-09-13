@@ -43,7 +43,7 @@ export default hopeTheme(
         sidebar: "structure",
 
         footer:
-          '主题使用 <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | CC0 协议',
+          '主题使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> | CC0 协议',
 
         displayFooter: true,
 

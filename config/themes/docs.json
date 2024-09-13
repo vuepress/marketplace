@@ -40,7 +40,10 @@
           "/zh/": "一个简约的，功能丰富的 VuePress 文档&博客 主题"
         },
         "source": "pengzhanbo/vuepress-theme-plume",
-        "url": "https://plume.pengzhanbo.cn"
+        "url": {
+          "/": "theme-plume.vuejs.press/en/",
+          "/zh/": "theme-plume.vuejs.press"
+        }
       },
       {
         "type": "theme",
@@ -50,8 +53,11 @@
           "/": "🔥 The 2.x of vuepress-theme-reco",
           "/zh/": "🔥 vuepress-theme-reco 的 2.x 版本"
         },
-        "source": "https://github.com/vuepress-reco/vuepress-theme-reco",
-        "url": "https://vuepress-theme-reco.recoluan.com/"
+        "source": "vuepress-reco/vuepress-theme-reco",
+        "url": {
+          "/": "theme-reco.vuejs.press/en/",
+          "/zh/": "theme-reco.vuejs.press"
+        }
       },
       {
         "type": "theme",
@@ -63,8 +69,8 @@
         },
         "source": "gavinliu6/vuepress-theme-mix",
         "url": {
-          "/": "vuepress-theme-mix.vercel.app/",
-          "/zh/": "vuepress-theme-mix.vercel.app/zh/"
+          "/": "vuepress-theme-mix.netlify.app",
+          "/zh/": "vuepress-theme-mix.netlify.app/zh/"
         }
       },
       {

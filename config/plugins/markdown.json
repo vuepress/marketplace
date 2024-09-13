@@ -6,17 +6,76 @@
     },
     "items": [
       {
-        "name": "@vuepress/container",
+        "name": "@vuepress/markdown-container",
         "icon": "box-open",
         "recommend": true,
         "desc": {
           "/": "Register markdown custom containers in your VuePress site",
           "/zh/": "在你的 VuePress 站点中注册 markdown 自定义容器"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-container/",
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-container",
         "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/container.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/container.html"
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-container.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-container.html"
+        }
+      },
+      {
+        "name": "@vuepress/shiki",
+        "icon": "code",
+        "recommend": true,
+        "desc": {
+          "/": " Enable syntax highlighting for markdown code fence with <a href='https://shiki.style/' target='_blank'>Shiki</a>",
+          "/zh/": "使用 <a href='https://shiki.tmrs.site/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-shiki",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/shiki.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/shiki.html"
+        }
+      },
+      {
+        "name": "@vuepress/markdown-hint",
+        "icon": "lightbulb",
+        "tag": "latest",
+        "recommend": true,
+        "desc": {
+          "/": "Add hint containers in markdown",
+          "/zh/": "在 Markdown 中添加提示容器"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-hint",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-hint.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-hint.html"
+        }
+      },
+      {
+        "name": "@vuepress/markdown-image",
+        "icon": "image",
+        "tag": "latest",
+        "recommend": true,
+        "desc": {
+          "/": "Support image size, render as figure and image lazyloading",
+          "/zh/": "支持图片尺寸语法，将图片显示为 figure 并实现图片懒加载"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-image",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-image.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-image.html"
+        }
+      },
+      {
+        "name": "@vuepress/markdown-math",
+        "icon": "square-root-variable",
+        "tag": "latest",
+        "recommend": true,
+        "desc": {
+          "/": "Render tex equations with katex or mathjax",
+          "/zh/": "使用 katex 或 mathjax 渲染 tex 公式"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-math",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-math.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-math.html"
         }
       },
       {
@@ -29,40 +88,10 @@
           "/": "Add attrs to markdown elements",
           "/zh/": "为 Markdown 元素添加属性"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/stylize/attrs.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/attrs.html"
-        }
-      },
-      {
-        "name": "@vuepress/shiki",
-        "icon": "code",
-        "recommend": true,
-        "desc": {
-          "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Shiki</a>",
-          "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
-        },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-shiki/",
-        "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/shiki.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/shiki.html"
-        }
-      },
-      {
-        "name": "md-enhance",
-        "title": "hint-container",
-        "icon": "lightbulb",
-        "tag": "latest",
-        "recommend": true,
-        "desc": {
-          "/": "Add hint containers in markdown",
-          "/zh/": "在 Markdown 中添加提示容器"
-        },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
-        "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/stylize/container.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/container.html"
         }
       },
       {
@@ -75,7 +104,7 @@
           "/": "Add Tab groups in Markdown",
           "/zh/": "在 Markdown 中添加选项卡组"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/content/tabs.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/tabs.html"
@@ -91,7 +120,7 @@
           "/": "Add code tabs in markdown",
           "/zh/": "在 Markdown 中添加代码选项卡"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/code/code-tabs.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/code-tabs.html"
@@ -107,7 +136,7 @@
           "/": "Footnote grammar support",
           "/zh/": "支持脚注语法"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/content/footnote.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/footnote.html"
@@ -123,7 +152,7 @@
           "/": "Tasklist grammar support",
           "/zh/": "支持任务列表语法"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/grammar/tasklist.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/tasklist.html"
@@ -131,23 +160,7 @@
       },
       {
         "name": "md-enhance",
-        "title": "image caption, resize and lazyload",
-        "icon": "image",
-        "tag": "latest",
-        "recommend": true,
-        "desc": {
-          "/": "Support image size grammar, displaying image as figure and image lazyloading",
-          "/zh/": "支持图片尺寸语法，将图片显示为 figure 并实现图片懒加载"
-        },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
-        "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/grammar/image.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/image.html"
-        }
-      },
-      {
-        "name": "md-enhance",
-        "title": "include other markdown files",
+        "title": "files include",
         "icon": "at",
         "tag": "latest",
         "recommend": true,
@@ -155,26 +168,10 @@
           "/": "Import common markdown snippet into contents",
           "/zh/": "将公共的 Markdown 片段导入到内容中"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/content/include.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/include.html"
-        }
-      },
-      {
-        "name": "md-enhance",
-        "title": "katex and mathjax support",
-        "icon": "square-root-variable",
-        "tag": "latest",
-        "recommend": true,
-        "desc": {
-          "/": "Render tex equations with katex or mathjax",
-          "/zh/": "使用 katex 或 mathjax 渲染 tex 公式"
-        },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
-        "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/grammar/tex.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/tex.html"
         }
       },
       {
@@ -201,7 +198,7 @@
           "/": "Customize elements alignment in Markdown",
           "/zh/": "在 Markdown 中自定义元素对齐方式"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/stylize/align.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/align.html"
@@ -216,7 +213,7 @@
           "/": "Superscript and Subscript grammar support",
           "/zh/": "支持上标和下标语法"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/grammar/sup-sub.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/grammar/sup-sub.html"
@@ -231,7 +228,7 @@
           "/": "Highlight words with mark grammar",
           "/zh/": "通过标记语法高亮字词"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/stylize/mark.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/mark.html"
@@ -246,7 +243,7 @@
           "/": "Stylize words the way you like",
           "/zh/": "以你喜欢的方式样式化字词"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/stylize/stylize.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/stylize.html"
@@ -274,7 +271,6 @@
         "source": "Snippetors/snippets/tree/main/packages/%40snippetors/vuepress-plugin-tabs",
         "url": "https://snippetors.github.io/plugins/vuepress-plugin-tabs.html"
       },
-
       {
         "name": "@vuepress/prismjs",
         "icon": "code",
@@ -282,10 +278,10 @@
           "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
           "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-prismjs/",
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-prismjs/",
         "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/prismjs.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/prismjs.html"
+          "/": "ecosystem.vuejs.press/plugins/markdown/prismjs.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/prismjs.html"
         }
       }
     ]
@@ -306,7 +302,7 @@
           "/": "Integrate ECharts to display charts in Markdown",
           "/zh/": "在 Markdown 中集成 ECharts 以显示图表"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/chart/echarts.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/echarts.html"
@@ -322,7 +318,7 @@
           "/": "Integrate Mermaid to display diagrams in Markdown",
           "/zh/": "在 Markdown 中集成 Mermaid 以显示图表"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/chart/mermaid.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/mermaid.html"
@@ -338,7 +334,7 @@
           "/": "Integrate Vue Playground in Markdown",
           "/zh/": "在 Markdown 中集成 Vue Playground"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/code/vue-playground.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/vue-playground.html"
@@ -354,7 +350,7 @@
           "/": "Integrate slides with Reveal.js in Markdown",
           "/zh/": "在 Markdown 中通过 Reveal.js 集成幻灯片"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/content/revealjs/",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/"
@@ -365,13 +361,13 @@
         "icon": "code",
         "recommend": true,
         "desc": {
-          "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Shiki</a>",
-          "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
+          "/": " Enable syntax highlighting for markdown code fence with <a href='https://shiki.style/' target='_blank'>Shiki</a>",
+          "/zh/": "使用 <a href='https://shiki.tmrs.site/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-shiki/",
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-shiki",
         "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/shiki.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/shiki.html"
+          "/": "ecosystem.vuejs.press/plugins/markdown/shiki.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/shiki.html"
         }
       },
       {
@@ -383,7 +379,7 @@
           "/": "Integrate Chart.js to display charts in Markdown",
           "/zh/": "在 Markdown 中集成 Chart.js 以显示图表"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/chart/chartjs.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/chartjs.html"
@@ -398,7 +394,7 @@
           "/": "Integrate flowchart.js to display flowcharts in Markdown",
           "/zh/": "在 Markdown 集成 flowchart.js 中以显示流程图"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/chart/flowchart.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/chart/flowchart.html"
@@ -413,7 +409,7 @@
           "/": "Run and show code snippets in Markdown",
           "/zh/": "在 Markdown 中运行并展示代码片段"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/dode/demo/",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/demo/"
@@ -428,7 +424,7 @@
           "/": "Integrate external playground services in Markdown",
           "/zh/": "在 Markdown 中集成外部 playground 服务"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance/",
+        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/code/playground.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/playground.html"
@@ -441,10 +437,10 @@
           "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
           "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/plugin-prismjs/",
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-prismjs/",
         "url": {
-          "/": "https://ecosystem.vuejs.press/plugins/prismjs.html",
-          "/zh/": "https://ecosystem.vuejs.press/zh/plugins/prismjs.html"
+          "/": "ecosystem.vuejs.press/plugins/markdown/prismjs.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/prismjs.html"
         }
       }
     ]
