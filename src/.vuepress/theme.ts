@@ -63,9 +63,12 @@ export default hopeTheme(
         categoryId: "DIC_kwDOItkaoM4CTau2",
       },
 
+      markdownTab: {
+        codeTabs: true,
+      },
+
       mdEnhance: {
         align: true,
-        codetabs: true,
         tasklist: true,
       },
 

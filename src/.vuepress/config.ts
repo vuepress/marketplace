@@ -1,7 +1,7 @@
+import viteBundler from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
-import viteBundler from "@vuepress/bundler-vite";
 
 const __dirname = getDirname(import.meta.url);
 
@@ -20,6 +20,10 @@ export default defineUserConfig({
       description: "VuePress 生态市场",
     },
   },
+
+  bundler: viteBundler(),
+
+  theme,
 
   alias: {
     "@blog-plugin-config": path.resolve(
@@ -59,8 +63,4 @@ export default defineUserConfig({
       "./components/HomePage.vue",
     ),
   },
-
-  bundler: viteBundler(),
-
-  theme,
 });

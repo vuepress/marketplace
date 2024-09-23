@@ -137,13 +137,13 @@ const open = () => {
   padding: 1rem;
   border-radius: 0.5rem;
 
-  box-shadow: 1px 1px 8px var(--card-shadow);
+  box-shadow: 1px 1px 8px var(--vp-c-shadow);
 
   cursor: pointer;
 
   transition:
-    box-shadow var(--color-transition),
-    box-shadow var(--transform-transition);
+    box-shadow var(--vp-t-color),
+    box-shadow var(--vp-t-transform);
 
   @media (max-width: hope-config.$pad) {
     flex-basis: calc(100% - 2rem);
@@ -153,7 +153,7 @@ const open = () => {
 
   .project-icon {
     display: inline-block;
-    color: var(--theme-color);
+    color: var(--vp-c-accent);
     width: 1.1em;
     height: 1.1em;
     font-size: 1.1em;
@@ -166,8 +166,8 @@ const open = () => {
   }
 
   &:hover {
-    background-color: var(--bg-color-secondary);
-    box-shadow: 0 2px 12px 0 var(--card-shadow);
+    background-color: var(--vp-c-bg-alt);
+    box-shadow: 0 2px 12px 0 var(--vp-c-shadow);
 
     .project-icon {
       animation-name: bounce;
@@ -187,11 +187,7 @@ const open = () => {
     border: 0.125rem solid transparent;
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
-    background-image: linear-gradient(
-        to right,
-        var(--bg-color),
-        var(--bg-color)
-      ),
+    background-image: linear-gradient(to right, var(--vp-c-bg), var(--vp-c-bg)),
       linear-gradient(120deg, #f6d365, #fda085);
 
     @media (max-width: hope-config.$pad) {
@@ -203,8 +199,8 @@ const open = () => {
     &:hover {
       background-image: linear-gradient(
           to right,
-          var(--bg-color-secondary),
-          var(--bg-color-secondary)
+          var(--vp-c-bg-alt),
+          var(--vp-c-bg-alt)
         ),
         linear-gradient(-120deg, #f6d365, #fda085);
     }
@@ -212,7 +208,7 @@ const open = () => {
 
   .project-header {
     margin: 0.25rem 0 0.5rem !important;
-    color: var(--text-color-light);
+    color: var(--vp-c-text-mute);
     font-weight: bold;
     font-size: 1.3rem;
 
@@ -223,7 +219,7 @@ const open = () => {
 
   .project-desc {
     margin: 0.5rem 0;
-    color: var(--text-color-lighter);
+    color: var(--vp-c-text-subtle);
     line-height: 1.4;
   }
 }
@@ -234,7 +230,7 @@ const open = () => {
   width: 1.5rem;
   height: 1.5rem;
 
-  transition: transform var(--transform-transition);
+  transition: transform var(--vp-c-transform);
 
   &::before {
     display: none;
@@ -247,7 +243,7 @@ const open = () => {
   .source-icon {
     width: 100%;
     height: 100%;
-    color: var(--text-color);
+    color: var(--vp-c-text);
   }
 }
 
