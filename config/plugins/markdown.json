@@ -36,7 +36,6 @@
       {
         "name": "@vuepress/markdown-hint",
         "icon": "lightbulb",
-        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Add hint containers in markdown",
@@ -51,7 +50,6 @@
       {
         "name": "@vuepress/markdown-image",
         "icon": "image",
-        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Support image size, render as figure and image lazyloading",
@@ -66,7 +64,6 @@
       {
         "name": "@vuepress/markdown-math",
         "icon": "square-root-variable",
-        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Render tex equations with katex or mathjax",
@@ -76,6 +73,20 @@
         "url": {
           "/": "ecosystem.vuejs.press/plugins/markdown/markdown-math.html",
           "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-math.html"
+        }
+      },
+      {
+        "name": "@vuepress/markdown-tab",
+        "icon": "table-columns",
+        "recommend": true,
+        "desc": {
+          "/": "Add code tabs or tabs in Markdown",
+          "/zh/": "在 Markdown 中添加代码选项卡与选项卡"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-tab",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-tab.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-tab.html"
         }
       },
       {
@@ -92,38 +103,6 @@
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/stylize/attrs.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/stylize/attrs.html"
-        }
-      },
-      {
-        "name": "md-enhance",
-        "title": "tabs",
-        "icon": "table-columns",
-        "tag": "latest",
-        "recommend": true,
-        "desc": {
-          "/": "Add Tab groups in Markdown",
-          "/zh/": "在 Markdown 中添加选项卡组"
-        },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
-        "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/content/tabs.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/tabs.html"
-        }
-      },
-      {
-        "name": "md-enhance",
-        "title": "code-tab",
-        "icon": "table-columns",
-        "tag": "latest",
-        "recommend": true,
-        "desc": {
-          "/": "Add code tabs in markdown",
-          "/zh/": "在 Markdown 中添加代码选项卡"
-        },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
-        "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/code/code-tabs.html",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/code-tabs.html"
         }
       },
       {
@@ -341,19 +320,17 @@
         }
       },
       {
-        "name": "md-enhance",
-        "title": "Slides",
+        "name": "@vuepress/revealjs",
         "icon": "person-chalkboard",
-        "tag": "latest",
         "recommend": true,
         "desc": {
           "/": "Integrate slides with Reveal.js in Markdown",
           "/zh/": "在 Markdown 中通过 Reveal.js 集成幻灯片"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/md-enhance",
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-revealjs",
         "url": {
-          "/": "plugin-md-enhance.vuejs.press/guide/content/revealjs/",
-          "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/"
+          "/": "ecosystem.vuejs.press/plugins/markdown/revealjs/",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/revealjs/"
         }
       },
       {
