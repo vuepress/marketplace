@@ -18,6 +18,17 @@
           "/": "ecosystem.vuejs.press/plugins/search/docsearch.html",
           "/zh/": "ecosystem.vuejs.press/zh/plugins/search/docsearch.html"
         }
+      },
+      {
+        "name": "vuepress-plugin-meilisearch2",
+        "icon": "search",
+        "tag": "latest",
+        "desc": {
+          "/": "Integrate <a href='https://www.meilisearch.com/' target='_blank'>MeiliSearch</a> into VuePress to provide search functionality",
+          "/zh/": "将 <a href='https://www.meilisearch.com/' target='_blank'>MeiliSearch</a> 集成到 VuePress 中，为你的文档网站提供搜索功能"
+        },
+        "source": "github.com/JQiue/vuepress-plugin-meilisearch2",
+        "url": "github.com/JQiue/vuepress-plugin-meilisearch2"
       }
     ]
   },
