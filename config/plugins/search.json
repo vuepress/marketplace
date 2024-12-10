@@ -28,7 +28,7 @@
     },
     "items": [
       {
-        "name": "search-pro",
+        "name": "@vuepress/slimsearch",
         "icon": "search",
         "tag": "latest",
         "recommend": true,
@@ -36,10 +36,10 @@
           "/": "Powerful client search plugin supporting full indexing",
           "/zh/": "强大的客户端搜索插件，支持全文索引"
         },
-        "source": "vuepress-theme-hope/vuepress-theme-hope/tree/main/packages/search-pro/",
+        "source": "vuepress/ecosystem/tree/main/plugins/search/plugin-slimsearch",
         "url": {
-          "/": "plugin-search-pro.vuejs.press",
-          "/zh/": "plugin-search-pro.vuejs.press/zh/"
+          "/": "ecosystem.vuejs.press/plugins/search/slimsearch.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/search/slimsearch.html"
         }
       },
       {

@@ -14,21 +14,21 @@
   },
   "license": "CC0",
   "dependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.15",
-    "@vuepress/helper": "2.0.0-rc.47",
-    "sass-embedded": "1.79.3",
-    "vue": "3.5.8",
-    "vuepress": "2.0.0-rc.15",
-    "vuepress-shared": "2.0.0-rc.54",
-    "vuepress-theme-hope": "2.0.0-rc.56"
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "@vuepress/helper": "2.0.0-rc.65",
+    "sass-embedded": "1.82.0",
+    "vue": "3.5.13",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-shared": "2.0.0-rc.63",
+    "vuepress-theme-hope": "2.0.0-rc.63"
   },
   "devDependencies": {
-    "husky": "9.1.6",
-    "markdownlint-cli2": "0.14.0",
+    "husky": "9.1.7",
+    "markdownlint-cli2": "0.16.0",
     "nano-staged": "0.8.0",
-    "prettier": "3.3.3"
+    "prettier": "3.4.2"
   },
-  "packageManager": "pnpm@9.11.0",
+  "packageManager": "pnpm@9.15.0",
   "nano-staged": {
     "**/*": "prettier --write --ignore-unknown",
     "*.md": "markdownlint-cli2"

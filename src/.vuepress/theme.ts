@@ -54,6 +54,12 @@ export default hopeTheme(
       },
     },
 
+    markdown: {
+      align: true,
+      codeTabs: true,
+      tasklist: true,
+    },
+
     plugins: {
       comment: {
         provider: "Giscus",
@@ -61,15 +67,6 @@ export default hopeTheme(
         repoId: "R_kgDOItkaoA",
         category: "Announcements",
         categoryId: "DIC_kwDOItkaoM4CTau2",
-      },
-
-      markdownTab: {
-        codeTabs: true,
-      },
-
-      mdEnhance: {
-        align: true,
-        tasklist: true,
       },
 
       photoSwipe: false,
