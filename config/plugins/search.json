@@ -28,7 +28,7 @@
           "/zh/": "将 <a href='https://www.meilisearch.com/' target='_blank'>MeiliSearch</a> 集成到 VuePress 中，为你的文档网站提供搜索功能"
         },
         "source": "github.com/JQiue/vuepress-plugin-meilisearch2",
-        "url": "github.com/JQiue/vuepress-plugin-meilisearch2"
+        "url": "vuepress-plugin-meilisearch2.jinqiu.wang"
       }
     ]
   },
