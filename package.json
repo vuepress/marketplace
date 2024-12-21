@@ -20,7 +20,7 @@
     "vue": "3.5.13",
     "vuepress": "2.0.0-rc.19",
     "vuepress-shared": "2.0.0-rc.64",
-    "vuepress-theme-hope": "2.0.0-rc.64"
+    "vuepress-theme-hope": "2.0.0-rc.66"
   },
   "devDependencies": {
     "husky": "9.1.7",
@@ -28,7 +28,7 @@
     "nano-staged": "0.8.0",
     "prettier": "3.4.2"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.1",
   "nano-staged": {
     "**/*": "prettier --write --ignore-unknown",
     "*.md": "markdownlint-cli2"
