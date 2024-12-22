@@ -263,17 +263,6 @@
         }
       },
       {
-        "name": "remove-html-extension",
-        "icon": "eraser",
-        "tag": "latest",
-        "desc": {
-          "/": "Generating clean urls without html extension",
-          "/zh/": "生成没有 html 扩展名的干净 url"
-        },
-        "source": "azat-io/vuepress-plugin-remove-html-extension",
-        "url": "https://github.com/azat-io/vuepress-plugin-remove-html-extension"
-      },
-      {
         "name": "@condorhero/export-pdf-v2",
         "icon": "file-pdf",
         "tag": "latest",
