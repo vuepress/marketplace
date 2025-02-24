@@ -1,24 +1,10 @@
 [
   {
     "header": {
-      "/": "Markdown Syntax Extension",
-      "/zh/": "Markdown 语法扩展"
+      "/": "Markdown Highlighter",
+      "/zh/": "Markdown 高亮器"
     },
     "items": [
-      {
-        "name": "@vuepress/markdown-container",
-        "icon": "box-open",
-        "recommend": true,
-        "desc": {
-          "/": "Register markdown custom containers in your VuePress site",
-          "/zh/": "在你的 VuePress 站点中注册 markdown 自定义容器"
-        },
-        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-container",
-        "url": {
-          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-container.html",
-          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-container.html"
-        }
-      },
       {
         "name": "@vuepress/shiki",
         "icon": "code",
@@ -33,6 +19,27 @@
           "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/shiki.html"
         }
       },
+      {
+        "name": "@vuepress/prismjs",
+        "icon": "code",
+        "desc": {
+          "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
+          "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-prismjs/",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/prismjs.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/prismjs.html"
+        }
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Markdown Stylizer",
+      "/zh/": "Markdown 样式化"
+    },
+    "items": [
       {
         "name": "@vuepress/markdown-hint",
         "icon": "lightbulb",
@@ -62,17 +69,39 @@
         }
       },
       {
-        "name": "@vuepress/markdown-math",
-        "icon": "square-root-variable",
+        "name": "@vuepress/markdown-stylize",
+        "icon": "table-columns",
         "recommend": true,
         "desc": {
-          "/": "Render tex equations with katex or mathjax",
-          "/zh/": "使用 katex 或 mathjax 渲染 tex 公式"
+          "/": "Stylize contents in markdown",
+          "/zh/": "在 Markdown 中样式化内容"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-math",
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-stylize",
         "url": {
-          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-math.html",
-          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-math.html"
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-stylize.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-stylize.html"
+        }
+      }
+    ]
+  },
+  {
+    "header": {
+      "/": "Markdown Syntax Extension",
+      "/zh/": "Markdown 语法扩展"
+    },
+    "items": [
+      {
+        "name": "@vuepress/markdown-ext",
+        "icon": "table-columns",
+        "recommend": true,
+        "desc": {
+          "/": "Official markdown extension that supports gfm and others",
+          "/zh/": "官方支持 GFM 等的 Markdown 扩展"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-ext",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-ext.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-ext.html"
         }
       },
       {
@@ -90,31 +119,17 @@
         }
       },
       {
-        "name": "@vuepress/markdown-ext",
-        "icon": "table-columns",
+        "name": "@vuepress/markdown-math",
+        "icon": "square-root-variable",
         "recommend": true,
         "desc": {
-          "/": "Official markdown extension that supports gfm and others",
-          "/zh/": "官方支持 GFM 等的 Markdown 扩展"
+          "/": "Render tex equations with katex or mathjax",
+          "/zh/": "使用 katex 或 mathjax 渲染 tex 公式"
         },
-        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-ext",
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-math",
         "url": {
-          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-ext.html",
-          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-ext.html"
-        }
-      },
-      {
-        "name": "@vuepress/markdown-stylize",
-        "icon": "table-columns",
-        "recommend": true,
-        "desc": {
-          "/": "Stylize contents in markdown",
-          "/zh/": "在 Markdown 中样式化内容"
-        },
-        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-stylize",
-        "url": {
-          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-stylize.html",
-          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-stylize.html"
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-math.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-math.html"
         }
       },
       {
@@ -129,6 +144,20 @@
         "url": {
           "/": "ecosystem.vuejs.press/plugins/markdown/markdown-include.html",
           "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-include.html"
+        }
+      },
+      {
+        "name": "@vuepress/markdown-container",
+        "icon": "box-open",
+        "recommend": true,
+        "desc": {
+          "/": "Register markdown custom containers in your VuePress site",
+          "/zh/": "在你的 VuePress 站点中注册 markdown 自定义容器"
+        },
+        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-markdown-container",
+        "url": {
+          "/": "ecosystem.vuejs.press/plugins/markdown/markdown-container.html",
+          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-container.html"
         }
       },
       {
@@ -167,19 +196,6 @@
         },
         "source": "Snippetors/snippets/tree/main/packages/%40snippetors/vuepress-plugin-tabs",
         "url": "https://snippetors.github.io/plugins/vuepress-plugin-tabs.html"
-      },
-      {
-        "name": "@vuepress/prismjs",
-        "icon": "code",
-        "desc": {
-          "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
-          "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
-        },
-        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-prismjs/",
-        "url": {
-          "/": "ecosystem.vuejs.press/plugins/markdown/prismjs.html",
-          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/prismjs.html"
-        }
       }
     ]
   },
@@ -251,20 +267,7 @@
           "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/revealjs/"
         }
       },
-      {
-        "name": "@vuepress/shiki",
-        "icon": "code",
-        "recommend": true,
-        "desc": {
-          "/": " Enable syntax highlighting for markdown code fence with <a href='https://shiki.style/' target='_blank'>Shiki</a>",
-          "/zh/": "使用 <a href='https://shiki.tmrs.site/' target='_blank'>Shiki</a> 为 Markdown 代码块启用语法高亮"
-        },
-        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-shiki",
-        "url": {
-          "/": "ecosystem.vuejs.press/plugins/markdown/shiki.html",
-          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/shiki.html"
-        }
-      },
+
       {
         "name": "md-enhance",
         "title": "Chart.js",
@@ -323,19 +326,6 @@
         "url": {
           "/": "plugin-md-enhance.vuejs.press/guide/code/playground.html",
           "/zh/": "plugin-md-enhance.vuejs.press/zh/guide/code/playground.html"
-        }
-      },
-      {
-        "name": "@vuepress/prismjs",
-        "icon": "code",
-        "desc": {
-          "/": " Enable syntax highlighting for markdown code fence with <a href='https://prismjs.com/' target='_blank'>Prism.js</a>",
-          "/zh/": "使用 <a href='https://prismjs.com/' target='_blank'>Prism.js</a> 为 Markdown 代码块启用语法高亮"
-        },
-        "source": "vuepress/ecosystem/tree/main/plugins/markdown/plugin-prismjs/",
-        "url": {
-          "/": "ecosystem.vuejs.press/plugins/markdown/prismjs.html",
-          "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/prismjs.html"
         }
       }
     ]

@@ -8,7 +8,6 @@ import {
 } from "@vuepress/helper/client";
 import { GitHubIcon } from "vuepress-shared/client";
 
-import Icon from "@theme-hope/components/HopeIcon";
 import { normalizePackageName } from "../utils/index.js";
 
 const props = withDefaults(
@@ -108,7 +107,7 @@ const open = () => {
       <GitHubIcon class="source-icon" />
     </a>
     <h3 class="project-header" :id="packageName">
-      <Icon class="project-icon" :icon="icon" />
+      <VPIcon class="project-icon" :icon="icon" />
       {{ projectTitle }}
     </h3>
     <p
@@ -187,7 +186,8 @@ const open = () => {
     border: 0.125rem solid transparent;
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
-    background-image: linear-gradient(to right, var(--vp-c-bg), var(--vp-c-bg)),
+    background-image:
+      linear-gradient(to right, var(--vp-c-bg), var(--vp-c-bg)),
       linear-gradient(120deg, #f6d365, #fda085);
 
     @media (max-width: hope-config.$pad) {
@@ -197,11 +197,8 @@ const open = () => {
     }
 
     &:hover {
-      background-image: linear-gradient(
-          to right,
-          var(--vp-c-bg-alt),
-          var(--vp-c-bg-alt)
-        ),
+      background-image:
+        linear-gradient(to right, var(--vp-c-bg-alt), var(--vp-c-bg-alt)),
         linear-gradient(-120deg, #f6d365, #fda085);
     }
   }

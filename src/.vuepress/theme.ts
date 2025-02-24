@@ -4,8 +4,6 @@ export default hopeTheme(
   {
     hostname: "https://marketplacae.vuejs.press",
 
-    iconAssets: "fontawesome-with-brands",
-
     logo: "/logo.png",
 
     repo: "vuepress/marketplace",
@@ -67,6 +65,10 @@ export default hopeTheme(
         repoId: "R_kgDOItkaoA",
         category: "Announcements",
         categoryId: "DIC_kwDOItkaoM4CTau2",
+      },
+
+      icon: {
+        assets: "fontawesome-with-brands",
       },
 
       photoSwipe: false,
