@@ -81,6 +81,17 @@
           "/": "ecosystem.vuejs.press/plugins/markdown/markdown-stylize.html",
           "/zh/": "ecosystem.vuejs.press/zh/plugins/markdown/markdown-stylize.html"
         }
+      },
+      {
+        "name": "vuepress-plugin-fullscreen-table",
+        "icon": "table-columns",
+        "desc": {
+          "/": "Fullscreen mode for tables",
+        },
+        "source": "https://github.com/idbolshakov/vuepress-plugin-fullscreen-table",
+        "url": {
+          "/": "https://github.com/idbolshakov/vuepress-plugin-fullscreen-table/blob/main/README.md"
+        }
       }
     ]
   },
