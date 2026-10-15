@@ -161,6 +161,17 @@
           "/": "github.com/dingshaohua-cn/vuepress-plugin-anchor-right/blob/main/README-en.md",
           "/zh/": "github.com/dingshaohua-cn/vuepress-plugin-anchor-right"
         }
+      },
+      {
+        "name": "vuepress-plugin-ai-chatbot",
+        "icon": "comments",
+        "tag": "latest",
+        "desc": {
+          "/": "AI chat assistant that answers visitors from your docs, in 80+ languages",
+          "/zh/": "AI 聊天助手，根据你的文档回答访客问题，支持 80 多种语言"
+        },
+        "source": "asyntai/vuepress-plugin-ai-chatbot",
+        "url": "https://asyntai.com/documentation/integrations/vuepress/"
       }
     ]
   },
